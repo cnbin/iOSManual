@@ -23,6 +23,7 @@
                                            ofType:@"plist"];
     //获取属性列表文件中的全部数据
     self.listTeams = [[NSArray alloc] initWithContentsOfFile:plistPath];
+  
 }
 
 
