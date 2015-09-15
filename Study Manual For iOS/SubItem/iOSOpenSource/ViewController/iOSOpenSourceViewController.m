@@ -7,6 +7,7 @@
 //
 
 #import "iOSOpenSourceViewController.h"
+#import "iOSOpenSourceWebKitViewController.h"
 
 @interface iOSOpenSourceViewController ()
 
@@ -44,7 +45,7 @@
     static NSString *CellIdentifier = @"iOSOpenSourceCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:CellIdentifier];
     }
     
     NSUInteger row = [indexPath row];
@@ -59,8 +60,16 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 
 {
- 
     
+    NSUInteger row = [indexPath row];
+    NSDictionary *rowDict = [self.listTeams objectAtIndex:row];
+   [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"url"];
+   [GlobalResource sharedInstance].iOSOpenSourceURLName = [rowDict objectForKey:@"name"];
+    
+    iOSOpenSourceWebKitViewController * iOSopenSourceWebKitViewController = [[iOSOpenSourceWebKitViewController alloc]init];
+    
+    [self.navigationController pushViewController: iOSopenSourceWebKitViewController animated:YES];
+  
 }
 
  #pragma mark - Navigation

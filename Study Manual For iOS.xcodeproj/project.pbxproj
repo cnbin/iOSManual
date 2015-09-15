@@ -21,6 +21,16 @@
 		186B608D1BA6B219002B2222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B608C1BA6B218002B2222 /* UIKit.framework */; };
 		186B608F1BA6B21E002B2222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B608E1BA6B21E002B2222 /* Foundation.framework */; };
 		186B60911BA6B226002B2222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B60901BA6B226002B2222 /* CoreGraphics.framework */; };
+		186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */; };
+		186B60CC1BA6BC16002B2222 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B60CB1BA6BC16002B2222 /* WebKit.framework */; };
+		186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D01BA6C083002B2222 /* GlobalResource.m */; };
+		186B60D61BA6C4BD002B2222 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D51BA6C4BD002B2222 /* Toast+UIView.m */; };
+		186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D81BA6C4C8002B2222 /* Reachability.m */; };
+		186B60DE1BA6C728002B2222 /* CustomURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60DB1BA6C728002B2222 /* CustomURLCache.m */; };
+		186B60DF1BA6C728002B2222 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60DD1BA6C728002B2222 /* Util.m */; };
+		186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */; };
+		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
+		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,25 @@
 		186B608C1BA6B218002B2222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		186B608E1BA6B21E002B2222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		186B60901BA6B226002B2222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		186B60C81BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSOpenSourceWebKitViewController.h; path = SubItem/iOSOpenSource/ViewController/iOSOpenSourceWebKitViewController.h; sourceTree = "<group>"; };
+		186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSOpenSourceWebKitViewController.m; path = SubItem/iOSOpenSource/ViewController/iOSOpenSourceWebKitViewController.m; sourceTree = "<group>"; };
+		186B60CB1BA6BC16002B2222 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		186B60CF1BA6C083002B2222 /* GlobalResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalResource.h; path = Util/GlobalResource/GlobalResource.h; sourceTree = "<group>"; };
+		186B60D01BA6C083002B2222 /* GlobalResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlobalResource.m; path = Util/GlobalResource/GlobalResource.m; sourceTree = "<group>"; };
+		186B60D41BA6C4BD002B2222 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "Util/Toast/Toast+UIView.h"; sourceTree = "<group>"; };
+		186B60D51BA6C4BD002B2222 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "Util/Toast/Toast+UIView.m"; sourceTree = "<group>"; };
+		186B60D71BA6C4C8002B2222 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Util/WebKit/Reachability.h; sourceTree = "<group>"; };
+		186B60D81BA6C4C8002B2222 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Util/WebKit/Reachability.m; sourceTree = "<group>"; };
+		186B60DA1BA6C728002B2222 /* CustomURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomURLCache.h; path = Util/WebKit/CustomURLCache.h; sourceTree = "<group>"; };
+		186B60DB1BA6C728002B2222 /* CustomURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomURLCache.m; path = Util/WebKit/CustomURLCache.m; sourceTree = "<group>"; };
+		186B60DC1BA6C728002B2222 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = Util/WebKit/Util.h; sourceTree = "<group>"; };
+		186B60DD1BA6C728002B2222 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = Util/WebKit/Util.m; sourceTree = "<group>"; };
+		186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogTableViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.h; sourceTree = "<group>"; };
+		186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogTableViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.m; sourceTree = "<group>"; };
+		186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSBlogPlist.plist; path = SubItem/iOSBlog/ViewController/iOSBlogPlist.plist; sourceTree = "<group>"; };
+		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2D89DD646F454E642B564A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B60CC1BA6BC16002B2222 /* WebKit.framework in Frameworks */,
 				186B60911BA6B226002B2222 /* CoreGraphics.framework in Frameworks */,
 				186B608F1BA6B21E002B2222 /* Foundation.framework in Frameworks */,
 				186B608D1BA6B219002B2222 /* UIKit.framework in Frameworks */,
+				6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +118,8 @@
 				186B5FC71BA6790A002B2222 /* Study Manual For iOS */,
 				186B5FE11BA6790A002B2222 /* Study Manual For iOSTests */,
 				186B5FC61BA6790A002B2222 /* Products */,
+				51022337D5DADBDA00FF341E /* Pods */,
+				C6FDBDFC0D1B7B7FBBD16E99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +135,13 @@
 		186B5FC71BA6790A002B2222 /* Study Manual For iOS */ = {
 			isa = PBXGroup;
 			children = (
+				186B60CD1BA6BFBF002B2222 /* Util */,
 				186B608B1BA6B1FB002B2222 /* Frameworks */,
 				186B5FFD1BA68859002B2222 /* SubItem */,
 				186B5FEF1BA67D29002B2222 /* Setting */,
 				186B5FEE1BA67D1B002B2222 /* Main */,
 				186B5FCC1BA6790A002B2222 /* AppDelegate.h */,
 				186B5FCD1BA6790A002B2222 /* AppDelegate.m */,
-				186B5FFC1BA6822A002B2222 /* PrefixHeader.pch */,
 				186B5FD21BA6790A002B2222 /* Main.storyboard */,
 				186B5FD51BA6790A002B2222 /* Images.xcassets */,
 				186B5FD71BA6790A002B2222 /* LaunchScreen.xib */,
@@ -120,6 +153,7 @@
 		186B5FC81BA6790A002B2222 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				186B5FFC1BA6822A002B2222 /* PrefixHeader.pch */,
 				186B5FC91BA6790A002B2222 /* Info.plist */,
 				186B5FCA1BA6790A002B2222 /* main.m */,
 			);
@@ -212,6 +246,7 @@
 		186B5FFD1BA68859002B2222 /* SubItem */ = {
 			isa = PBXGroup;
 			children = (
+				186B60E01BA6DD1C002B2222 /* iOSBlog */,
 				186B60041BA688DB002B2222 /* iOSInterview */,
 				186B60031BA688AA002B2222 /* iOSOpenSource */,
 				186B60021BA688A1002B2222 /* Xcode */,
@@ -320,6 +355,8 @@
 			children = (
 				186B60111BA697FD002B2222 /* iOSOpenSourceViewController.h */,
 				186B60121BA697FD002B2222 /* iOSOpenSourceViewController.m */,
+				186B60C81BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.h */,
+				186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */,
 				186B60141BA6A0A7002B2222 /* iOSOpenSourcePlist.plist */,
 			);
 			name = ViewController;
@@ -328,9 +365,86 @@
 		186B608B1BA6B1FB002B2222 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				186B60CB1BA6BC16002B2222 /* WebKit.framework */,
 				186B60901BA6B226002B2222 /* CoreGraphics.framework */,
 				186B608E1BA6B21E002B2222 /* Foundation.framework */,
 				186B608C1BA6B218002B2222 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186B60CD1BA6BFBF002B2222 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				186B60D31BA6C4AC002B2222 /* WebKit */,
+				186B60D21BA6C4A6002B2222 /* Toast */,
+				186B60CE1BA6BFC5002B2222 /* GlobalResource */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		186B60CE1BA6BFC5002B2222 /* GlobalResource */ = {
+			isa = PBXGroup;
+			children = (
+				186B60CF1BA6C083002B2222 /* GlobalResource.h */,
+				186B60D01BA6C083002B2222 /* GlobalResource.m */,
+			);
+			name = GlobalResource;
+			sourceTree = "<group>";
+		};
+		186B60D21BA6C4A6002B2222 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				186B60D41BA6C4BD002B2222 /* Toast+UIView.h */,
+				186B60D51BA6C4BD002B2222 /* Toast+UIView.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		186B60D31BA6C4AC002B2222 /* WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				186B60DA1BA6C728002B2222 /* CustomURLCache.h */,
+				186B60DB1BA6C728002B2222 /* CustomURLCache.m */,
+				186B60DC1BA6C728002B2222 /* Util.h */,
+				186B60DD1BA6C728002B2222 /* Util.m */,
+				186B60D71BA6C4C8002B2222 /* Reachability.h */,
+				186B60D81BA6C4C8002B2222 /* Reachability.m */,
+			);
+			name = WebKit;
+			sourceTree = "<group>";
+		};
+		186B60E01BA6DD1C002B2222 /* iOSBlog */ = {
+			isa = PBXGroup;
+			children = (
+				186B60E41BA6DD56002B2222 /* ViewController */,
+			);
+			name = iOSBlog;
+			sourceTree = "<group>";
+		};
+		186B60E41BA6DD56002B2222 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */,
+				186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */,
+				186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		51022337D5DADBDA00FF341E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */,
+				3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6FDBDFC0D1B7B7FBBD16E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D89DD646F454E642B564A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -342,9 +456,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186B5FE81BA6790A002B2222 /* Build configuration list for PBXNativeTarget "Study Manual For iOS" */;
 			buildPhases = (
+				69F7888E01E119FF4EB396CF /* Check Pods Manifest.lock */,
 				186B5FC11BA6790A002B2222 /* Sources */,
 				186B5FC21BA6790A002B2222 /* Frameworks */,
 				186B5FC31BA6790A002B2222 /* Resources */,
+				CBC2B6759F4D6C796CB04FC4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -417,6 +533,7 @@
 			files = (
 				186B60151BA6A0A7002B2222 /* iOSOpenSourcePlist.plist in Resources */,
 				186B5FD41BA6790A002B2222 /* Main.storyboard in Resources */,
+				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
 			);
@@ -431,17 +548,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69F7888E01E119FF4EB396CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC2B6759F4D6C796CB04FC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		186B5FC11BA6790A002B2222 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B60D61BA6C4BD002B2222 /* Toast+UIView.m in Sources */,
+				186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */,
 				186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */,
 				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
 				186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */,
+				186B60DE1BA6C728002B2222 /* CustomURLCache.m in Sources */,
+				186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
+				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,
+				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
 				186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */,
+				186B60DF1BA6C728002B2222 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +722,7 @@
 		};
 		186B5FE91BA6790A002B2222 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -578,6 +736,7 @@
 		};
 		186B5FEA1BA6790A002B2222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

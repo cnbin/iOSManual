@@ -1,5 +1,5 @@
 //
-//  iOSOpenSourceViewController.h
+//  iOSBlogTableViewController.h
 //  Study Manual For iOS
 //
 //  Created by Apple on 9/14/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSOpenSourceViewController : UITableViewController
+@interface iOSBlogTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSArray *listTeams;
 

@@ -1,109 +1,94 @@
 //
-//  MainViewController.m
+//  iOSBlogTableViewController.m
 //  Study Manual For iOS
 //
 //  Created by Apple on 9/14/15.
 //  Copyright (c) 2015 广东华讯网络投资有限公司. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "iOSOpenSourceViewController.h"
 #import "iOSBlogTableViewController.h"
+#import "iOSOpenSourceWebKitViewController.h"
 
-@interface MainViewController ()
+@interface iOSBlogTableViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation iOSBlogTableViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
-
-    _titleArray = [[NSMutableArray alloc]initWithObjects:@"Objective-C 语法",@"Mac 知识点", @"Linux 知识点",@"git 知识点",@"iOS 开发工具 Xcode 介绍",@"iOS 开源项目介绍",@"iOS/Mac 开发博客列表",@"iOS 面试题大全",nil];
+    
+    self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
+    
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *plistPath = [bundle pathForResource:@"iOSBlogPlist"
+                                           ofType:@"plist"];
+    //获取属性列表文件中的全部数据
+    self.listTeams = [[NSArray alloc] initWithContentsOfFile:plistPath];
 }
 
-
 - (void)didReceiveMemoryWarning {
-    
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
+    
+    // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return [_titleArray count];
+    // Return the number of rows in the section.
+    return  [ self.listTeams  count];
+
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIndentify" forIndexPath:indexPath];
     
-    static NSString *CellIdentifier = @"CellIdentifier";
+    static NSString *CellIdentifier = @"iOSBlogCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:CellIdentifier];
     }
     
-    cell.textLabel.text = [_titleArray objectAtIndex:indexPath.row];
+    NSUInteger row = [indexPath row];
+    NSDictionary *rowDict = [self.listTeams objectAtIndex:row];
+    cell.textLabel.text =  [rowDict objectForKey:@"name"];
+    cell.detailTextLabel.text = [rowDict objectForKey:@"url"];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-
+    
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+
 {
-    switch ([indexPath row]) {
-        case 0:
-        {
-            
-        }
-            break;
-        case 1:
-        {
-            
-        }
-        case 2:
-        {
-            
-        }
-            break;
-        case 3:
-        {
-            
-        }
-        case 4:
-        {
-            
-        }
-            break;
-        case 5:
-        {
-            iOSOpenSourceViewController *  iOSopenSourceViewController =[[iOSOpenSourceViewController alloc]init];
-            // [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  iOSopenSourceViewController] animated:YES completion:nil];
-            [self.navigationController pushViewController:iOSopenSourceViewController animated:YES];
-            
-        }
-        case 6:
-        {
-            iOSBlogTableViewController *  iOSblogTableViewController =[[iOSBlogTableViewController alloc]init];
-        
-            [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
-            
-        }
-        break;
-   
-        default:
-            break;
-    }
+    
+    NSUInteger row = [indexPath row];
+    NSDictionary *rowDict = [self.listTeams objectAtIndex:row];
+    [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"url"];
+    [GlobalResource sharedInstance].iOSOpenSourceURLName = [rowDict objectForKey:@"name"];
+    
+    iOSOpenSourceWebKitViewController * iOSopenSourceWebKitViewController = [[iOSOpenSourceWebKitViewController alloc]init];
+    
+    [self.navigationController pushViewController: iOSopenSourceWebKitViewController animated:YES];
+    
 }
 
+
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
 
 /*
 // Override to support conditional editing of the table view.
