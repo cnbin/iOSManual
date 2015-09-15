@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
+
+    self.title = @"iOS/Mac 开发博客列表";
     
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *plistPath = [bundle pathForResource:@"iOSBlogPlist"
@@ -52,7 +52,7 @@
     static NSString *CellIdentifier = @"iOSBlogCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
     NSUInteger row = [indexPath row];
@@ -80,15 +80,7 @@
 }
 
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

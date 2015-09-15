@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-
+    self.title = @"iOS 开发学习手册";
     _titleArray = [[NSMutableArray alloc]initWithObjects:@"Objective-C 语法",@"Mac 知识点", @"Linux 知识点",@"git 知识点",@"iOS 开发工具 Xcode 介绍",@"iOS 开源项目介绍",@"iOS/Mac 开发博客列表",@"iOS 面试题大全",nil];
 }
 
@@ -85,14 +85,16 @@
             break;
         case 5:
         {
-            iOSOpenSourceViewController *  iOSopenSourceViewController =[[iOSOpenSourceViewController alloc]init];
-            // [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  iOSopenSourceViewController] animated:YES completion:nil];
+            iOSOpenSourceViewController *  iOSopenSourceViewController = [[iOSOpenSourceViewController alloc]init];
             [self.navigationController pushViewController:iOSopenSourceViewController animated:YES];
-            
+
+//            [self presentViewController:[[UINavigationController alloc] initWithRootViewController:iOSopenSourceViewController] animated:YES completion:nil];
+
         }
+            break;
         case 6:
         {
-            iOSBlogTableViewController *  iOSblogTableViewController =[[iOSBlogTableViewController alloc]init];
+            iOSBlogTableViewController *  iOSblogTableViewController = [[iOSBlogTableViewController alloc]init];
         
             [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
             

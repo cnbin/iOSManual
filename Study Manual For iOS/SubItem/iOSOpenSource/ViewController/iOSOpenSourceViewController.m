@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"iOS 开源项目";
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *plistPath = [bundle pathForResource:@"iOSOpenSourcePlist"
                                            ofType:@"plist"];
@@ -68,8 +68,8 @@
     
     iOSOpenSourceWebKitViewController * iOSopenSourceWebKitViewController = [[iOSOpenSourceWebKitViewController alloc]init];
     
+//    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:iOSopenSourceWebKitViewController ] animated:YES completion:nil];
     [self.navigationController pushViewController: iOSopenSourceWebKitViewController animated:YES];
-  
 }
 
  #pragma mark - Navigation

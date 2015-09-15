@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSOpenSourceViewController : UITableViewController
+@interface iOSOpenSourceViewController : UITableViewController<UISearchBarDelegate>
 
 @property (nonatomic, strong) NSArray *listTeams;
+
 
 @end
