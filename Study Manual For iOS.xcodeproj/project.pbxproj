@@ -30,6 +30,7 @@
 		186B60DF1BA6C728002B2222 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60DD1BA6C728002B2222 /* Util.m */; };
 		186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */; };
 		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
+		186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogTableViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.h; sourceTree = "<group>"; };
 		186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogTableViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.m; sourceTree = "<group>"; };
 		186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSBlogPlist.plist; path = SubItem/iOSBlog/ViewController/iOSBlogPlist.plist; sourceTree = "<group>"; };
+		186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsTableViewController.h; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsTableViewController.m; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.m; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2D89DD646F454E642B564A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -355,6 +358,8 @@
 			children = (
 				186B60111BA697FD002B2222 /* iOSOpenSourceViewController.h */,
 				186B60121BA697FD002B2222 /* iOSOpenSourceViewController.m */,
+				186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */,
+				186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */,
 				186B60C81BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.h */,
 				186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */,
 				186B60141BA6A0A7002B2222 /* iOSOpenSourcePlist.plist */,
@@ -596,6 +601,7 @@
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,
+				186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */,
 				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
 				186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */,
 				186B60DF1BA6C728002B2222 /* Util.m in Sources */,

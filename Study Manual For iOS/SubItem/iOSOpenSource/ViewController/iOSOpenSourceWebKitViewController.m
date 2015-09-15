@@ -18,7 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIBarButtonItem *buttonImage = [[ UIBarButtonItem alloc ] initWithImage:
+                                    [ UIImage imageNamed: @"nav_backbtn"]
+                                                                      style: UIBarButtonItemStylePlain
+                                                                     target: self
+                                                                     action: @selector(navback:)
+                                    ];
     
+    self.navigationItem.leftBarButtonItem=buttonImage;
+
+    NSLog(@"webkit");
     self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
 
     self.webView = [[WKWebView alloc]init];
@@ -33,6 +42,10 @@
     [self.webView loadRequest:request];
     self.webView.navigationDelegate = self;
     
+}
+
+-(void)navback:(UIButton *)button{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)ReachabilityTest{

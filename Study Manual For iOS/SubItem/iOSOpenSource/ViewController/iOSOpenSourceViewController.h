@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSOpenSourceViewController : UITableViewController<UISearchBarDelegate>
+@interface iOSOpenSourceViewController : UITableViewController<UISearchResultsUpdating>
 
-@property (nonatomic, strong) NSArray *listTeams;
+@property (nonatomic, strong) NSArray *dataList;
 
+@property (nonatomic, strong) NSMutableArray *searchResults;
+//@property (nonatomic, strong) NSMutableArray *searchResultsURL;
 
+@property (nonatomic, strong) UISearchController *searchController;
 
 @end
