@@ -105,7 +105,6 @@
         
         // Else if the airline's name is
         for (NSDictionary *airline in self.dataList) {
-            NSLog(@"airlineName is %@",airlineName);
             if ([airline[@"name"] containsString:airlineName]) {
 
                [searchResults addObject:airline];

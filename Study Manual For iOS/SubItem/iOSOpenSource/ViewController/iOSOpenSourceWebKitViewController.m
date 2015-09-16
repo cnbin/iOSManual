@@ -18,18 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
     UIBarButtonItem *buttonImage = [[ UIBarButtonItem alloc ] initWithImage:
-                                    [ UIImage imageNamed: @"nav_backbtn"]
+                                    [ UIImage imageNamed:@"nav_backbtn"]
                                                                       style: UIBarButtonItemStylePlain
                                                                      target: self
                                                                      action: @selector(navback:)
                                     ];
     
     self.navigationItem.leftBarButtonItem=buttonImage;
-
-    NSLog(@"webkit");
-    self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
-
     self.webView = [[WKWebView alloc]init];
     self.webView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) ;
     [self.view addSubview:self.webView];
@@ -57,7 +54,6 @@
 
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
     
-    NSLog(@"start");
    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
    
 }
@@ -74,8 +70,6 @@
 
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
     
-    NSLog(@"finish");
- 
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,24 @@
+{
+    "WeiXin" : [
+    {
+        "Text": "CocoaChina 苹果开发中文社区官方微信，提供教程资源、app 推广营销、招聘、外包及培训信息、各类沙龙交流活动以及更多开发者服务。",
+        "WeiXinHao":"cocoachinabbs"
+    },
+    {
+        "Text": "程序员的那些事是最受欢迎的程序员、IT 技术和 IT 行业相关的微信公众号之一，分享最新编程技术、经典技术分享、IT行业动态、热门编程课程、高薪技术职位、程序员的日常，更有难得一见的 IT 相亲活动。",
+        "WeiXinHao": "iProgrammer"
+    },
+    {
+        "Text": "iOS 大全专注分享 iOS 和 Mac 相关内容，包括 iOS 和 Swift 开发技术文章、工具资源、产品设计、营销推广和行业资讯。",
+        "WeiXinHao": "iOShub"
+    },
+    {
+        "Text": "Linux 爱好者专注分享 Linux/Unix 相关内容，包括：工具资源、使用技巧、课程、书籍等。",
+        "WeiXinHao": "LinuxHub"
+    },
+    {
+        "Text": "",
+        "WeiXinHao": ""
+    }
+  ]
+}

@@ -26,11 +26,10 @@
 		186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D01BA6C083002B2222 /* GlobalResource.m */; };
 		186B60D61BA6C4BD002B2222 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D51BA6C4BD002B2222 /* Toast+UIView.m */; };
 		186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60D81BA6C4C8002B2222 /* Reachability.m */; };
-		186B60DE1BA6C728002B2222 /* CustomURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60DB1BA6C728002B2222 /* CustomURLCache.m */; };
-		186B60DF1BA6C728002B2222 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60DD1BA6C728002B2222 /* Util.m */; };
 		186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */; };
 		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
 		186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */; };
+		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -78,15 +77,12 @@
 		186B60D51BA6C4BD002B2222 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "Util/Toast/Toast+UIView.m"; sourceTree = "<group>"; };
 		186B60D71BA6C4C8002B2222 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Util/WebKit/Reachability.h; sourceTree = "<group>"; };
 		186B60D81BA6C4C8002B2222 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Util/WebKit/Reachability.m; sourceTree = "<group>"; };
-		186B60DA1BA6C728002B2222 /* CustomURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomURLCache.h; path = Util/WebKit/CustomURLCache.h; sourceTree = "<group>"; };
-		186B60DB1BA6C728002B2222 /* CustomURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomURLCache.m; path = Util/WebKit/CustomURLCache.m; sourceTree = "<group>"; };
-		186B60DC1BA6C728002B2222 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = Util/WebKit/Util.h; sourceTree = "<group>"; };
-		186B60DD1BA6C728002B2222 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = Util/WebKit/Util.m; sourceTree = "<group>"; };
 		186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogTableViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.h; sourceTree = "<group>"; };
 		186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogTableViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogTableViewController.m; sourceTree = "<group>"; };
 		186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSBlogPlist.plist; path = SubItem/iOSBlog/ViewController/iOSBlogPlist.plist; sourceTree = "<group>"; };
 		186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsTableViewController.h; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.h; sourceTree = "<group>"; };
 		186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsTableViewController.m; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2D89DD646F454E642B564A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +245,7 @@
 		186B5FFD1BA68859002B2222 /* SubItem */ = {
 			isa = PBXGroup;
 			children = (
+				18D167831BA8FD0B006F34E9 /* iOSWeiXin */,
 				186B60E01BA6DD1C002B2222 /* iOSBlog */,
 				186B60041BA688DB002B2222 /* iOSInterview */,
 				186B60031BA688AA002B2222 /* iOSOpenSource */,
@@ -409,10 +406,6 @@
 		186B60D31BA6C4AC002B2222 /* WebKit */ = {
 			isa = PBXGroup;
 			children = (
-				186B60DA1BA6C728002B2222 /* CustomURLCache.h */,
-				186B60DB1BA6C728002B2222 /* CustomURLCache.m */,
-				186B60DC1BA6C728002B2222 /* Util.h */,
-				186B60DD1BA6C728002B2222 /* Util.m */,
 				186B60D71BA6C4C8002B2222 /* Reachability.h */,
 				186B60D81BA6C4C8002B2222 /* Reachability.m */,
 			);
@@ -435,6 +428,38 @@
 				186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18D167831BA8FD0B006F34E9 /* iOSWeiXin */ = {
+			isa = PBXGroup;
+			children = (
+				18D167861BA8FD21006F34E9 /* Model */,
+				18D167851BA8FD1D006F34E9 /* View */,
+				18D167841BA8FD17006F34E9 /* ViewController */,
+				18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */,
+			);
+			name = iOSWeiXin;
+			sourceTree = "<group>";
+		};
+		18D167841BA8FD17006F34E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18D167851BA8FD1D006F34E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18D167861BA8FD21006F34E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		51022337D5DADBDA00FF341E /* Pods */ = {
@@ -541,6 +566,7 @@
 				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
+				18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +622,6 @@
 				186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */,
 				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
 				186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */,
-				186B60DE1BA6C728002B2222 /* CustomURLCache.m in Sources */,
 				186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
@@ -604,7 +629,6 @@
 				186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */,
 				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
 				186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */,
-				186B60DF1BA6C728002B2222 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
