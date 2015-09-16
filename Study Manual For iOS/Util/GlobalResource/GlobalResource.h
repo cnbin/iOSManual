@@ -13,4 +13,6 @@
 + (instancetype)sharedInstance;
 @property (nonatomic,strong) NSString * iOSOpenSourceURL;
 @property (nonatomic,strong) NSString * iOSOpenSourceURLName;
+
+@property (nonatomic,strong) NSMutableArray * detailArray;
 @end

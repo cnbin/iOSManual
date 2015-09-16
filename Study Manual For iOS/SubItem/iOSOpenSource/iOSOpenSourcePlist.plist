@@ -5536,33 +5536,27 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>SnapKit</string>
 		<key>url</key>
-		<string></string>
+		<string>https://github.com/cnbin/SnapKit</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>JSPatch</string>
 		<key>url</key>
-		<string></string>
+		<string>https://github.com/cnbin/JSPatch</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>Monkey</string>
 		<key>url</key>
-		<string></string>
+		<string>https://github.com/cnbin/Monkey</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>uservoice-ios-sdk</string>
 		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string></string>
-		<key>url</key>
-		<string></string>
+		<string>https://github.com/cnbin/uservoice-ios-sdk</string>
 	</dict>
 	<dict>
 		<key>name</key>

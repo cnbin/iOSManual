@@ -59,6 +59,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
+    NSLog(@"[self.dataList count] is %lu",(unsigned long)[self.dataList count]);
     return [self.dataList count];
 
 }

@@ -30,6 +30,10 @@
 		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
 		186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */; };
 		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
+		18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */; };
+		18D167B31BA9878A006F34E9 /* Refresh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B21BA9878A006F34E9 /* Refresh.plist */; };
+		18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */; };
+		18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B61BA9883E006F34E9 /* AutoLayout.plist */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +87,11 @@
 		186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsTableViewController.h; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.h; sourceTree = "<group>"; };
 		186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsTableViewController.m; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.m; sourceTree = "<group>"; };
 		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
+		18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMainTableViewControlelr.h; path = Main/ViewController/DetailMainTableViewControlelr.h; sourceTree = "<group>"; };
+		18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMainTableViewControlelr.m; path = Main/ViewController/DetailMainTableViewControlelr.m; sourceTree = "<group>"; };
+		18D167B21BA9878A006F34E9 /* Refresh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Refresh.plist; path = Main/ViewController/Refresh.plist; sourceTree = "<group>"; };
+		18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MoHuXiaoGuo.plist; path = Main/ViewController/MoHuXiaoGuo.plist; sourceTree = "<group>"; };
+		18D167B61BA9883E006F34E9 /* AutoLayout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AutoLayout.plist; path = Main/ViewController/AutoLayout.plist; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2D89DD646F454E642B564A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +224,11 @@
 			children = (
 				186B5FF61BA67DCC002B2222 /* MainViewController.h */,
 				186B5FF71BA67DCC002B2222 /* MainViewController.m */,
+				18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */,
+				18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */,
+				18D167B21BA9878A006F34E9 /* Refresh.plist */,
+				18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */,
+				18D167B61BA9883E006F34E9 /* AutoLayout.plist */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -561,12 +575,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */,
 				186B60151BA6A0A7002B2222 /* iOSOpenSourcePlist.plist in Resources */,
 				186B5FD41BA6790A002B2222 /* Main.storyboard in Resources */,
 				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
 				18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */,
+				18D167B31BA9878A006F34E9 /* Refresh.plist in Resources */,
+				18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +640,7 @@
 				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
 				186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */,
 				186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */,
+				18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,

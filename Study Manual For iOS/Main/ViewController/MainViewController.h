@@ -12,6 +12,6 @@
 @interface MainViewController : UITableViewController
 
 @property (nonatomic,strong) NSMutableArray * titleArray;
-
-
+@property (nonatomic,strong) UIButton * btn1;
+@property (nonatomic,strong) NSMutableArray * detailArray;
 @end

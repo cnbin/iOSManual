@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "iOSOpenSourceViewController.h"
 #import "iOSBlogTableViewController.h"
+#import "DetailMainTableViewControlelr.h"
 
 @interface MainViewController ()
 
@@ -20,13 +21,9 @@
     
     [super viewDidLoad];
     self.title = @"iOS";
-    _titleArray = [[NSMutableArray alloc]initWithObjects:@"Objective-C 语法",@"Mac 知识点", @"Linux 知识点",@"Git 知识点",@"iOS 开发工具 Xcode 介绍",@"iOS 微信订阅号",@"iOS/Mac 开发博客列表",@"iOS 面试题大全",nil];
-}
-
-
-- (void)didReceiveMemoryWarning {
     
-    [super didReceiveMemoryWarning];
+    _titleArray = [[NSMutableArray alloc]initWithObjects:@"iOS 微信订阅号",@"iOS/Mac 开发博客列表",@"Xcode 插件 ",@"UI",@"动画",@"网络相关",@"Model",@"其他",@"数据库",@"缓存处理",@"PDF",@"图像浏览及处理",@"摄像照相视频音频处理",@"响应式框架",@"消息相关",@"版本新API的Demo",@"代码安全与密码",@"测试及调试",@"AppleWatch",@"完整项目",@"好的文章",@"VPN",@"美工资源",@"开发资源",@"iOS 面试题大全",nil];
+
 }
 
 #pragma mark - Table view data source
@@ -41,9 +38,7 @@
     return [_titleArray count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIndentify" forIndexPath:indexPath];
     
     static NSString *CellIdentifier = @"CellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -62,13 +57,17 @@
     switch ([indexPath row]) {
         case 0:
         {
-            
+          
+
         }
             break;
         case 1:
         {
+            iOSBlogTableViewController *  iOSblogTableViewController = [[iOSBlogTableViewController alloc]init];
             
+            [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
         }
+            break;
         case 2:
         {
             
@@ -76,15 +75,20 @@
             break;
         case 3:
         {
-            
+            _detailArray = [[NSMutableArray alloc]initWithObjects:@"下拉刷新",@"模糊效果",@"AutoLayout",@"富文本",@"图表",@"表相关",@"隐藏与显示",@"HUD与Toast",@"对话框",@"其他UI",nil];
+            [self detailView];
         }
+            break;
         case 4:
         {
-            
+            _detailArray = [[NSMutableArray alloc]initWithObjects:@"侧滑与右滑返回",@"gif动画",@"其他动画",nil];
+            [self detailView];
         }
             break;
         case 5:
         {
+            _detailArray = [[NSMutableArray alloc]initWithObjects:@"网络连接",@"网络测试",@"网络获取",@"网络聊天",@"网络测试",@"WebView",nil];
+            [self detailView];
             //iOSOpenSourceViewController * iOSopenSourceViewController = [[iOSOpenSourceViewController alloc]init];
          //   [self.navigationController pushViewController:iOSopenSourceViewController animated:YES];
 
@@ -92,31 +96,37 @@
 //[self.navigationController pushViewController:iOSopenSourceViewController  animated:YES];
        
           //  [self presentViewController:iOSopenSourceViewController animated:YES completion:nil];
-            NSLog(@"点击5");
-           
-            
-            
         }
             break;
         case 6:
         {
-            iOSBlogTableViewController *  iOSblogTableViewController = [[iOSBlogTableViewController alloc]init];
-        
-            [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
-            
+            _detailArray = [[NSMutableArray alloc]initWithObjects:@"消息推送客户端",@"消息推送服务器端",@"通知相关",nil];
         }
-        break;
-   
+            break;
+            
+        case 7:
+        {
+            _detailArray = [[NSMutableArray alloc]initWithObjects:@"开发资料",@"swift",@"他人开源总结",nil];
+            [self detailView];
+        }
+            break;
+    
         default:
             break;
     }
 }
 
+- (void)detailView{
+    
+    [GlobalResource sharedInstance].detailArray = _detailArray;
+    DetailMainTableViewControlelr * detailMainTableViewController =[[DetailMainTableViewControlelr alloc]init];
+    [self.navigationController pushViewController:detailMainTableViewController  animated:YES];
+}
 
 /*
-// Override to support conditional editing of the table view.
+ Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
+     Return NO if you do not want the specified item to be editable.
     return YES;
 }
 */
@@ -138,6 +148,8 @@
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
 }
 */
+
+
 
 /*
 // Override to support conditional rearranging of the table view.
