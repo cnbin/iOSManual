@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>SlideTapBar</string>
+		<key>Durl</key>
+		<string>http://d.cocoachina.com/code/detail/286102</string>
+		<key>Dtext</key>
+		<string>滚动栏菜单，向上滚动时隐藏tabbar，向下滚动马上显示tabbar。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>FoldingTabBar.iOS</string>
+		<key>Durl</key>
+		<string>https://github.com/Yalantis/FoldingTabBar.iOS</string>
+		<key>Dtext</key>
+		<string>可折叠Tab Bar和Tab Bar Controller。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>LTNavigationBar</string>
+		<key>Durl</key>
+		<string>https://github.com/ltebean/LTNavigationBar</string>
+		<key>Dtext</key>
+		<string>LTNavigationBar为app导航栏添加动态着色效果，可自定义其背景色。Demo包含：1.变换背景色；2.滚动视图，导航栏和状态栏重叠。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>BLKFlexibleHeightBar</string>
+		<key>Durl</key>
+		<string>https://github.com/bryankeller/BLKFlexibleHeightBar</string>
+		<key>Dtext</key>
+		<string>固定Header的效果库。</string>
+	</dict>
+</array>
+</plist>

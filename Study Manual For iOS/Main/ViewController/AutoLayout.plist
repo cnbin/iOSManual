@@ -4,211 +4,79 @@
 <array>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Masonry</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/Masonry/Masonry</string>
 		<key>Dtext</key>
-		<string></string>
+		<string> Masonry是一个轻量级的布局框架，拥有自己的描述语法，采用更优雅的链式语法封装自动布局，简洁明了并具有高可读性</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Classy</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/cloudkite/Classy/</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>Classy是一个能与UIKit无缝结合stylesheet(样式)系统。它借鉴CSS的思想，但引入新的语法和命名规则。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>ClassyLiveLayout</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/olegam/ClassyLiveLayout</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>ClassyLiveLayout通过结合Classy stylesheets与Masonry一起使用，能够在运行的模拟器中微调Auto Layout约束实时显示效果的工具。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Snap</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/Masonry/Snap</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>Snap是Masonry Auto Layout DSL的Swift版本，是一款轻量级的布局框架，使用了更良好的语法封装了AutoLayout。Snap支持iOS和OS X。
+</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>SnapKit</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/SnapKit/SnapKit</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>就是“snap”， --swift 喜欢自动布局吗？当然喜欢！至少在storyboard中创建时会喜欢。 在代码中纯手工创建约束灰常痛苦，但幸运的是我们有了SnapKit，在board中用上它，你可以简单直观地编写约束了。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Auto-Layout-Showcase</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/philcn/Auto-Layout-Showcase</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>swift,AutoLayout 进阶 Demo，宽高比约束、比例约束、不等约束、视差约束、低优先级约束等高级用法，无需写码即可进行复杂页面布局，Demo 还动态模拟了各屏幕下的效果。来自百度知道 iOS 小组的内部分享。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>UIView-FDCollapsibleConstraints</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/forkingdog/UIView-FDCollapsibleConstraints</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>一个AutoLayout辅助工具，最优雅的方式解决自动布局中子View的动态显示和隐藏的问题。第二个Demo模拟了一个经典的FlowLayout，任意一个元素隐藏时，底下的元素需要自动“顶”上来，配合这个扩展，你可以在IB里连一连，选一选，不用一行代码就能搞定。
+</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Autolayout_Demo</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/luodezhao/Autolayout_Demo</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>在项目中用自动布局实现的类似抽屉效果。
+</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>当view隐藏的时候也隐藏其autolayout的NSLayoutAttribute</string>
 		<key>Durl</key>
-		<string></string>
+		<string>http://code.cocoachina.com/detail/320405/</string>
 		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
+		<string>当view隐藏的时候也隐藏其autolayout的NSLayoutAttribute，从而不用大量的代码工作。
+</string>
 	</dict>
 </array>
 </plist>

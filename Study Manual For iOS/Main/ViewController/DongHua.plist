@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>Core Animation笔记，基本的使用方法</string>
+		<key>Durl</key>
+		<string>http://www.starming.com/index.php?v=index&amp;view=62</string>
+		<key>Dtext</key>
+		<string>Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>awesome-ios-animation</string>
+		<key>Durl</key>
+		<string>https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91</string>
+		<key>Dtext</key>
+		<string> 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
+</string>
+	</dict>
+</array>
+</plist>

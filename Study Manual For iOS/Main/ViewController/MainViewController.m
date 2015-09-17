@@ -54,6 +54,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSLog(@"a");
     switch ([indexPath row]) {
         case 0:
         {

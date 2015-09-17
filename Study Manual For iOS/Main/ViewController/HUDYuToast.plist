@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>MBProgressHUD</string>
+		<key>Durl</key>
+		<string>https://github.com/jdg/MBProgressHUD</string>
+		<key>Dtext</key>
+		<string> 最多人用的loading。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>SVProgressHUD</string>
+		<key>Durl</key>
+		<string>https://github.com/TransitApp/SVProgressHUD</string>
+		<key>Dtext</key>
+		<string>SVProgressHUD的loading，如果你需要定制化的等待提示器，这个就是了（也许是最好的）。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>ProgressHUD</string>
+		<key>Durl</key>
+		<string>https://github.com/relatedcode/ProgressHUD</string>
+		<key>Dtext</key>
+		<string>ProgressHUD的loading，使用最简单。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>MMProgressHUD</string>
+		<key>Durl</key>
+		<string>https://github.com/mutualmobile/MMProgressHUD</string>
+		<key>Dtext</key>
+		<string>设置HUD出现和消失的方式（包括上下、左右、淡入淡出、放大缩小等等），设置HUD的内容（可以在HUD中加入帧动画、动态图片等等），设置HUD出现时的底部覆盖层颜色，等等。总而言之，这是一份集大成的HUD代码。慢慢看视频吧，囊括了所有效果。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>WSProgressHUD</string>
+		<key>Durl</key>
+		<string>https://github.com/devSC/WSProgressHUD</string>
+		<key>Dtext</key>
+		<string>一个小巧精致的HUD,支持添加到自定义View上, 还有更多小细节。
+</string>
+	</dict>
+</array>
+</plist>
