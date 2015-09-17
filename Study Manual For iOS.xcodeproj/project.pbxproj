@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		185D314B1BAA5071009DBF56 /* FuWebBen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314A1BAA5071009DBF56 /* FuWebBen.plist */; };
+		185D314B1BAA5071009DBF56 /* FuWenBen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314A1BAA5071009DBF56 /* FuWenBen.plist */; };
 		185D314D1BAA534A009DBF56 /* TuBiao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314C1BAA534A009DBF56 /* TuBiao.plist */; };
 		185D314F1BAA548E009DBF56 /* BiaoXiangGuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */; };
 		185D31511BAA5713009DBF56 /* YinCangYuXianShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */; };
@@ -41,9 +41,14 @@
 		186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */; };
 		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
 		186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */; };
+		18A643A91BAA9BD100176345 /* FDFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643A61BAA9BD100176345 /* FDFeedCell.m */; };
+		18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643A81BAA9BD100176345 /* FDFeedEntity.m */; };
+		18A643AD1BAA9BE000176345 /* FDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643AC1BAA9BE000176345 /* FDFeedViewController.m */; };
+		18A643AF1BAA9D2500176345 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A643AE1BAA9D2500176345 /* data1.json */; };
+		18A644471BAABD0C00176345 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644461BAABD0C00176345 /* data.json */; };
 		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
 		18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */; };
-		18D167B31BA9878A006F34E9 /* Refresh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B21BA9878A006F34E9 /* Refresh.plist */; };
+		18D167B31BA9878A006F34E9 /* XiaLaShuaXin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */; };
 		18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */; };
 		18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B61BA9883E006F34E9 /* AutoLayout.plist */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
@@ -60,7 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		185D314A1BAA5071009DBF56 /* FuWebBen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FuWebBen.plist; path = Main/ViewController/FuWebBen.plist; sourceTree = "<group>"; };
+		185D314A1BAA5071009DBF56 /* FuWenBen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FuWenBen.plist; path = Main/ViewController/FuWenBen.plist; sourceTree = "<group>"; };
 		185D314C1BAA534A009DBF56 /* TuBiao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TuBiao.plist; path = Main/ViewController/TuBiao.plist; sourceTree = "<group>"; };
 		185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BiaoXiangGuan.plist; path = Main/ViewController/BiaoXiangGuan.plist; sourceTree = "<group>"; };
 		185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = YinCangYuXianShi.plist; path = Main/ViewController/YinCangYuXianShi.plist; sourceTree = "<group>"; };
@@ -110,10 +115,18 @@
 		186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSBlogPlist.plist; path = SubItem/iOSBlog/ViewController/iOSBlogPlist.plist; sourceTree = "<group>"; };
 		186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsTableViewController.h; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.h; sourceTree = "<group>"; };
 		186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsTableViewController.m; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		18A643A51BAA9BD100176345 /* FDFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedCell.h; path = Main/Model/FDFeedCell.h; sourceTree = "<group>"; };
+		18A643A61BAA9BD100176345 /* FDFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedCell.m; path = Main/Model/FDFeedCell.m; sourceTree = "<group>"; };
+		18A643A71BAA9BD100176345 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedEntity.h; path = Main/Model/FDFeedEntity.h; sourceTree = "<group>"; };
+		18A643A81BAA9BD100176345 /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedEntity.m; path = Main/Model/FDFeedEntity.m; sourceTree = "<group>"; };
+		18A643AB1BAA9BE000176345 /* FDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedViewController.h; path = Main/ViewController/FDFeedViewController.h; sourceTree = "<group>"; };
+		18A643AC1BAA9BE000176345 /* FDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedViewController.m; path = Main/ViewController/FDFeedViewController.m; sourceTree = "<group>"; };
+		18A643AE1BAA9D2500176345 /* data1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data1.json; path = Main/ViewController/data1.json; sourceTree = "<group>"; };
+		18A644461BAABD0C00176345 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Main/ViewController/data.json; sourceTree = "<group>"; };
 		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
 		18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMainTableViewControlelr.h; path = Main/ViewController/DetailMainTableViewControlelr.h; sourceTree = "<group>"; };
 		18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMainTableViewControlelr.m; path = Main/ViewController/DetailMainTableViewControlelr.m; sourceTree = "<group>"; };
-		18D167B21BA9878A006F34E9 /* Refresh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Refresh.plist; path = Main/ViewController/Refresh.plist; sourceTree = "<group>"; };
+		18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XiaLaShuaXin.plist; path = Main/ViewController/XiaLaShuaXin.plist; sourceTree = "<group>"; };
 		18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MoHuXiaoGuo.plist; path = Main/ViewController/MoHuXiaoGuo.plist; sourceTree = "<group>"; };
 		18D167B61BA9883E006F34E9 /* AutoLayout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AutoLayout.plist; path = Main/ViewController/AutoLayout.plist; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +252,10 @@
 		186B5FF11BA67D39002B2222 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18A643A51BAA9BD100176345 /* FDFeedCell.h */,
+				18A643A61BAA9BD100176345 /* FDFeedCell.m */,
+				18A643A71BAA9BD100176345 /* FDFeedEntity.h */,
+				18A643A81BAA9BD100176345 /* FDFeedEntity.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -246,14 +263,18 @@
 		186B5FF21BA67D3F002B2222 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18A644461BAABD0C00176345 /* data.json */,
+				18A643AE1BAA9D2500176345 /* data1.json */,
+				18A643AB1BAA9BE000176345 /* FDFeedViewController.h */,
+				18A643AC1BAA9BE000176345 /* FDFeedViewController.m */,
 				186B5FF61BA67DCC002B2222 /* MainViewController.h */,
 				186B5FF71BA67DCC002B2222 /* MainViewController.m */,
 				18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */,
 				18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */,
-				18D167B21BA9878A006F34E9 /* Refresh.plist */,
+				18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */,
 				18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */,
 				18D167B61BA9883E006F34E9 /* AutoLayout.plist */,
-				185D314A1BAA5071009DBF56 /* FuWebBen.plist */,
+				185D314A1BAA5071009DBF56 /* FuWenBen.plist */,
 				185D314C1BAA534A009DBF56 /* TuBiao.plist */,
 				185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */,
 				185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */,
@@ -612,6 +633,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */,
+				18A644471BAABD0C00176345 /* data.json in Resources */,
 				185D315B1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist in Resources */,
 				185D31611BAA68B8009DBF56 /* WangLuoLianJie.plist in Resources */,
 				186B60151BA6A0A7002B2222 /* iOSOpenSourcePlist.plist in Resources */,
@@ -619,9 +641,10 @@
 				185D31571BAA5A37009DBF56 /* QiTaUI.plist in Resources */,
 				185D314F1BAA548E009DBF56 /* BiaoXiangGuan.plist in Resources */,
 				185D31591BAA5FA1009DBF56 /* DongHua.plist in Resources */,
-				185D314B1BAA5071009DBF56 /* FuWebBen.plist in Resources */,
+				185D314B1BAA5071009DBF56 /* FuWenBen.plist in Resources */,
 				186B5FD41BA6790A002B2222 /* Main.storyboard in Resources */,
 				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
+				18A643AF1BAA9D2500176345 /* data1.json in Resources */,
 				185D31511BAA5713009DBF56 /* YinCangYuXianShi.plist in Resources */,
 				185D314D1BAA534A009DBF56 /* TuBiao.plist in Resources */,
 				185D315F1BAA6402009DBF56 /* QiTaDongHua.plist in Resources */,
@@ -629,7 +652,7 @@
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
 				18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */,
-				18D167B31BA9878A006F34E9 /* Refresh.plist in Resources */,
+				18D167B31BA9878A006F34E9 /* XiaLaShuaXin.plist in Resources */,
 				185D315D1BAA6322009DBF56 /* GifDongHua.plist in Resources */,
 				18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */,
 			);
@@ -686,14 +709,17 @@
 				186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */,
 				186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */,
 				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
+				18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */,
 				186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */,
 				186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */,
 				18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */,
+				18A643A91BAA9BD100176345 /* FDFeedCell.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,
 				186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */,
 				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
+				18A643AD1BAA9BE000176345 /* FDFeedViewController.m in Sources */,
 				186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

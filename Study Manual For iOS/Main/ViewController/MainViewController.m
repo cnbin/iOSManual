@@ -10,6 +10,7 @@
 #import "iOSOpenSourceViewController.h"
 #import "iOSBlogTableViewController.h"
 #import "DetailMainTableViewControlelr.h"
+#import "FDFeedViewController.h"
 
 @interface MainViewController ()
 
@@ -54,11 +55,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"a");
     switch ([indexPath row]) {
         case 0:
         {
-          
+            self.tag =0;
 
         }
             break;
@@ -67,107 +67,65 @@
             iOSBlogTableViewController *  iOSblogTableViewController = [[iOSBlogTableViewController alloc]init];
             
             [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
+            self.tag =1;
         }
             break;
         case 2:
         {
-            
+            self.tag =2;
         }
             break;
         case 3:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"下拉刷新",@"模糊效果",@"AutoLayout",@"富文本",@"图表",@"表相关",@"隐藏与显示",@"HUD与Toast",@"对话框",@"其他UI",nil];
-            [self detailView];
+            self.tag =3;
         }
             break;
         case 4:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"侧滑与右滑返回",@"gif动画",@"其他动画",nil];
-            [self detailView];
+            self.tag =4;
         }
             break;
         case 5:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"网络连接",@"网络测试",@"网络获取",@"网络聊天",@"网络测试",@"WebView",nil];
-            [self detailView];
-            //iOSOpenSourceViewController * iOSopenSourceViewController = [[iOSOpenSourceViewController alloc]init];
-         //   [self.navigationController pushViewController:iOSopenSourceViewController animated:YES];
-
-          // [self presentViewController:[[UINavigationController alloc] initWithRootViewController:iOSopenSourceViewController] animated:YES completion:nil];
-//[self.navigationController pushViewController:iOSopenSourceViewController  animated:YES];
-       
-          //  [self presentViewController:iOSopenSourceViewController animated:YES completion:nil];
+            self.tag =5;
         }
             break;
         case 6:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"消息推送客户端",@"消息推送服务器端",@"通知相关",nil];
+            self.tag =6;
         }
             break;
             
         case 7:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"开发资料",@"swift",@"他人开源总结",nil];
-            [self detailView];
+            self.tag =7;
+            
         }
             break;
     
         default:
             break;
     }
+    [self performSegueWithIdentifier:@"detailSegue" sender:nil];
 }
 
-- (void)detailView{
-    
-    [GlobalResource sharedInstance].detailArray = _detailArray;
-    DetailMainTableViewControlelr * detailMainTableViewController =[[DetailMainTableViewControlelr alloc]init];
-    [self.navigationController pushViewController:detailMainTableViewController  animated:YES];
-}
-
-/*
- Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-     Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+//// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"detailSegue"]){
+        [GlobalResource sharedInstance].detailArray = _detailArray;
+        DetailMainTableViewControlelr * de = segue.destinationViewController;
+        de.detailtag = self.tag;
+    }
+    
 }
-*/
 
 @end

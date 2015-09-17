@@ -15,4 +15,5 @@
 @property (nonatomic,strong) NSString * iOSOpenSourceURLName;
 
 @property (nonatomic,strong) NSMutableArray * detailArray;
+@property (nonatomic,strong) NSString * jsonString;
 @end

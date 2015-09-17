@@ -7,6 +7,7 @@
 //
 
 #import "DetailMainTableViewControlelr.h"
+#import "FDFeedViewController.h"
 
 @interface DetailMainTableViewControlelr ()
 
@@ -58,49 +59,123 @@
 
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+//    下拉刷新",@"模糊效果",@"AutoLayout",@"富文本",@"图表",@"表相关",@"隐藏与显示",@"HUD与Toast",@"对话框",@"其他UI",nil];
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    if (self.detailtag == 3) {
+        switch ([indexPath row]) {
+            case 0:
+            {
+                [GlobalResource sharedInstance].jsonString = @"XiaLaShuaXin";
+                
+            }
+                break;
+            case 1:
+            {
+                [GlobalResource sharedInstance].jsonString = @"MoHuXiaoGuo";
+                
+            }
+                break;
+            case 2:
+            {
+                [GlobalResource sharedInstance].jsonString = @"AutoLayout";
+                
+            }
+                break;
+            case 3:
+            {
+                 [GlobalResource sharedInstance].jsonString = @"FuWenBen";
+            }
+                break;
+            case 4:
+            {
+                [GlobalResource sharedInstance].jsonString = @"TuBiao";
+                
+            }
+                break;
+            case 5:
+            {
+                [GlobalResource sharedInstance].jsonString = @"BiaoXiangGuan";
+                
+            }
+                break;
+            case 6:
+            {
+                [GlobalResource sharedInstance].jsonString = @"YinCangYuXianShi";
+                
+            }
+                break;
+            case 7:
+            {
+                [GlobalResource sharedInstance].jsonString = @"HUDYuToast";
+                
+            }
+                break;
+            case 8:
+            {
+                [GlobalResource sharedInstance].jsonString = @"DuiHuaKuang";
+                
+            }
+                break;
+            case 9:
+            {
+                [GlobalResource sharedInstance].jsonString = @"QiTaUI";
+                
+            }
+                break;
+
+        }
+
+    }
+    
+    if (self.detailtag == 7) {
+        
+    switch ([indexPath row]) {
+        case 0:
+        {
+           [GlobalResource sharedInstance].jsonString = @"AutoLayout";
+          
+        }
+            break;
+        case 1:
+        {
+           [GlobalResource sharedInstance].jsonString = @"AutoLayout";
+
+        }
+            break;
+        case 2:
+        {
+            [GlobalResource sharedInstance].jsonString = @"AutoLayout";
+            
+        }
+            
+            break;
+        case 3:
+        {
+      
+        }
+            break;
+    }
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+      [self performSegueWithIdentifier:@"feedSegue" sender:nil];
+   
 }
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    // Get the new view controller using [segue destinationViewController].
+//    // Pass the selected object to the new view controller.
+//    NSLog(@"aa");
+//    if ([segue.identifier isEqualToString:@"chat"]) {
+//        
+//       // FDFeedViewController *  fd = segue.destinationViewController;
+//     //   [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  fd ] animated:YES completion:nil];
+//    }
+//    
+//}
+
 
 @end

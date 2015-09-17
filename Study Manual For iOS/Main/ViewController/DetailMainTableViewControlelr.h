@@ -10,4 +10,7 @@
 
 @interface DetailMainTableViewControlelr : UITableViewController
 
+@property (nonatomic,assign) NSInteger detailtag;
+
 @end
+

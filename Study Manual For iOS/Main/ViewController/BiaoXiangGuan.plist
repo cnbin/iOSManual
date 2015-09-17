@@ -272,7 +272,7 @@
 		<key>Durl</key>
 		<string>https://github.com/MortimerGoro/MGSwipeTableCell</string>
 		<key>Dtext</key>
-		<string> 另一个常见于很多应用中的UI组件，苹果应该考虑在标准的iOS SDK中加入一些类似的内容。Swipeable表格cell是这个pod的最佳描述，也是最好的。</string>
+		<string>另一个常见于很多应用中的UI组件，苹果应该考虑在标准的iOS SDK中加入一些类似的内容。Swipeable表格cell是这个pod的最佳描述，也是最好的。</string>
 	</dict>
 </array>
 </plist>
