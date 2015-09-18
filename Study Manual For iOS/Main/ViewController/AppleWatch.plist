@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>Tesla汽车AppleWatch app demo演示</string>
+		<key>Durl</key>
+		<string>https://github.com/eleks/rnd-apple-watch-tesla</string>
+		<key>Dtext</key>
+		<string>通过AppleWatch控制特斯拉汽车，同时可以看到汽车的相关信息，比如剩余电量、可续行里程等，以及解锁/上锁车门、调节司机和乘客的四区域空调温度、开启车辆大灯、定位汽车等。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Tesla 汽车 AppleWatch 源码推荐说明</string>
+		<key>Durl</key>
+		<string>http://www.cocoachina.com/ios/20150205/11116.html</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>WatchKit-Apps</string>
+		<key>Durl</key>
+		<string>https://github.com/kostiakoval/WatchKit-Apps</string>
+		<key>Dtext</key>
+		<string>WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程（1.如何创建一个简单的交互式计数器；2.如何从手表上控制iOS app；3.如何在WatchKit app和iOS app之间共享数据；4.如何创建一个拥有不同背景色的数字时钟；5.展示不同的UI层；6.如何创建支持滑动手势的应用程序。）。 
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>KYVoiceCurve</string>
+		<key>Durl</key>
+		<string>https://github.com/KittenYang/KYVoiceCurve</string>
+		<key>Dtext</key>
+		<string>类似Apple Watch中语音的声音曲线动画。  </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>IGInterfaceDataTable</string>
+		<key>Durl</key>
+		<string>https://github.com/Instagram/IGInterfaceDataTable</string>
+		<key>Dtext</key>
+		<string>IGInterfaceDataTable是WKInterfaceTable对象的一个类别，可以让开发者更简单地配置多维数据。该项目使用类似UITableViewDataSource的数据源模式配置Apple Watch表格，而不是将数据结构扁平化成为数组。  
+* [Apple Watch开发教程资料汇总](http://www.swiftkiller.com/?p=613) - Apple Watch开发教程资料汇总。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Stargate</string>
+		<key>Durl</key>
+		<string>https://github.com/contentful-labs/Stargate</string>
+		<key>Dtext</key>
+		<string>通过 iPhone 桥接实现 Mac 与 Watch 的即时通讯。Stargate 通过封装两个优秀的基础类库 MMWormhole 和 PeerKit 实现高效的通讯应用。--swift</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>soon</string>
+		<key>Durl</key>
+		<string>https://github.com/sandofsky/soon</string>
+		<key>Dtext</key>
+		<string>一款倒计时 WatchKit 示例应用。作者从架构的角度，思考如何设计一款完整、通讯高效且性能又好的 WatchKit 扩展应用。该示例学习性非常强。--swift</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>watchOS-2-Sampler</string>
+		<key>Durl</key>
+		<string>https://github.com/shu223/watchOS-2-Sampler</string>
+		<key>Dtext</key>
+		<string>基于 watchOS 2 若干新特性，写了相应的示例代码供大家学习、参考。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>HMWatch</string>
+		<key>Durl</key>
+		<string>https://github.com/KhaosT/HMWatch</string>
+		<key>Dtext</key>
+		<string>HMWatch是个有待完善的watchOS 2.0 HomeKit 应用示例。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>CocoaMultipeer</string>
+		<key>Durl</key>
+		<string>https://github.com/manavgabhawala/CocoaMultipeer</string>
+		<key>Dtext</key>
+		<string>CocoaMultipeer这个开源框架支持OS X, iOS和watchOS设备间的点对点通信，解决watchOS和Mac之间通信的方案还是很有用的。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>HighstreetWatchApp</string>
+		<key>Durl</key>
+		<string>https://github.com/GetHighstreet/HighstreetWatchApp</string>
+		<key>Dtext</key>
+		<string>是电商平台Highstreet针对App Watch的一款应用，该demo中加载的是虚拟数据。</string>
+	</dict>
+</array>
+</plist>

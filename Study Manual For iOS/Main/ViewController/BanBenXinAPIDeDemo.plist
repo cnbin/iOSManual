@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>appleSample</string>
+		<key>Durl</key>
+		<string>https://github.com/WildDylan/appleSample</string>
+		<key>Dtext</key>
+		<string>iOS 苹果官方Demo合集。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>appleSample 官方 demo</string>
+		<key>Durl</key>
+		<string>https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&amp;topic=Sample%20Code</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS7-Sampler</string>
+		<key>Durl</key>
+		<string>https://github.com/shu223/iOS7-Sampler</string>
+		<key>Dtext</key>
+		<string>整合了iOS7.0的一些十分有用的特性，比如：Dynamic Behaviors、碰撞检测、语音合成、视图切换、图像滤镜、三维地图、Sprite Kit（动画精灵）、Motion Effect（Parallax）、附近蓝牙或者wifi搜索连接、AirDrop、运动物体追踪（iPhone 5S以上，需要M7处理器）等等。对于日常的应用开发十分实用。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS8-Sampler</string>
+		<key>Durl</key>
+		<string>https://github.com/shu223/iOS8-Sampler</string>
+		<key>Dtext</key>
+		<string>日本的shuさん制作的 iOS8 参考代码集。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>MTSwift-Learning</string>
+		<key>Durl</key>
+		<string>https://github.com/MartinRGB/MTSwift-Learning</string>
+		<key>Dtext</key>
+		<string>通过一些简单项目实战演练开始学习 Swift。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS8-day-by-day</string>
+		<key>Durl</key>
+		<string>https://github.com/shinobicontrols/iOS8-day-by-day</string>
+		<key>Dtext</key>
+		<string> swift。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS9-day-by-day</string>
+		<key>Durl</key>
+		<string>https://github.com/shinobicontrols/iOS9-day-by-day</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS9 Day-by-Day :: Day 2 :: UI Testing</string>
+		<key>Durl</key>
+		<string>http://www.jianshu.com/p/039f8de6ee4d</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>iOS 9 分屏多任务</string>
+		<key>Durl</key>
+		<string>http://www.cocoachina.com/ios/20150714/12557.html</string>
+		<key>Dtext</key>
+		<string>iOS 9 分屏多任务：Slide Over &amp; Split View快速入门（中文版）。
+</string>
+	</dict>
+</array>
+</plist>

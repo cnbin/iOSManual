@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>v2ex</string>
+		<key>Durl</key>
+		<string>https://github.com/singro/v2ex</string>
+		<key>Dtext</key>
+		<string>v2ex 的客户端，新闻、论坛。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>apps-ios-wikipedia</string>
+		<key>Durl</key>
+		<string>https://github.com/wikimedia/apps-ios-wikipedia</string>
+		<key>Dtext</key>
+		<string>apps-ios-wikipedia 客户端。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>jetstream-ios</string>
+		<key>Durl</key>
+		<string>https://github.com/uber/jetstream-ios</string>
+		<key>Dtext</key>
+		<string>一款 Uber 的 MVC 框架。它同时提供了多用户实时通讯支持，一旦启动 JetStream 后端服务，通过 WebSocket 协议可以分分钟建立多用户实时通讯应用。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>DeckRocket</string>
+		<key>Durl</key>
+		<string>https://github.com/jpsim/DeckRocket</string>
+		<key>Dtext</key>
+		<string>在相同 WiFi 网络环境内，通过iPhone 控制并播放 Mac 中的 PDF 文档。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>ScanBook</string>
+		<key>Durl</key>
+		<string>https://github.com/JayFang1993/ScanBook</string>
+		<key>Dtext</key>
+		<string>扫扫图书:可以扫描条形码查询图书，也可以关键字搜索，遇到合乎你口味的书，还可以看看别人的读书笔记，不同角度去体会。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>DesignerNewsApp</string>
+		<key>Durl</key>
+		<string>https://github.com/MengTo/DesignerNewsApp</string>
+		<key>Dtext</key>
+		<string> Swift 开发的 DesignerNews 客户端，看着美美的！</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>KYWeibo</string>
+		<key>Durl</key>
+		<string>https://github.com/KittenYang/KYWeibo</string>
+		<key>Dtext</key>
+		<string>调用新浪API自己写的第三方微博客户端。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>DouQu_IOS</string>
+		<key>Durl</key>
+		<string>https://github.com/li6185377/DouQu_IOS</string>
+		<key>Dtext</key>
+		<string> 逗趣IOS手机端（一款笑话软件）,拥有完整的功能的手机应用app。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>IT江湖iOS客户端</string>
+		<key>Durl</key>
+		<string>https://github.com/itjhDev/itjh</string>
+		<key>Dtext</key>
+		<string>IT江湖iOS客户端。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Eidolon</string>
+		<key>Durl</key>
+		<string>https://github.com/artsy/eidolon</string>
+		<key>Dtext</key>
+		<string>艺术品拍卖的投标亭平台，用swift与反应式编程框架 ReactiveCocoa。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>CrazyPuzzle</string>
+		<key>Durl</key>
+		<string>https://github.com/nonstriater/CrazyPuzzle</string>
+		<key>Dtext</key>
+		<string> 模仿“看图猜成语”App，功能齐全，配有音效，效果很不错。游戏使用cocoa框架完成，没有使用cocos2d的框架。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>WhoCall</string>
+		<key>Durl</key>
+		<string>https://github.com/Tim9Liu9/WhoCall</string>
+		<key>Dtext</key>
+		<string>谁CALL我，iOS来电信息语音提醒，无需越狱。（需要iOS 7.0及以上版本。)骚扰电话预警、来电归属地提醒、联系人姓名播报，这些有中国特色人性化的电话功能，iOS上也应该有。电话提醒、私有API。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>仿iOS猎豹垃圾清理(实现原理+源码)</string>
+		<key>Durl</key>
+		<string>http://www.devtf.cn/?p=562</string>
+		<key>Dtext</key>
+		<string>仿iOS猎豹垃圾清理(实现原理+源码),用到私有API。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>DSLolita</string>
+		<key>Durl</key>
+		<string>https://github.com/sam408130/DSLolita</string>
+		<key>Dtext</key>
+		<string>模仿新浪微博做的一款app，有发送博文，评论，点赞，私聊功能。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>GSD_ZHIFUBAO</string>
+		<key>Durl</key>
+		<string>https://github.com/gsdios/GSD_ZHIFUBAO</string>
+		<key>Dtext</key>
+		<string>支付宝高仿版。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Tropos</string>
+		<key>Durl</key>
+		<string>https://github.com/thoughtbot/Tropos</string>
+		<key>Dtext</key>
+		<string>Tropos, 由 thoughtbot 推出的一款用 Objective-C 写的开源天气类应用, 截至今天, thoughtbot 已在 GitHub 上贡献了 174 个开源项目, 实在令人敬佩。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>SmileWeather</string>
+		<key>Durl</key>
+		<string>https://github.com/liu044100/SmileWeather</string>
+		<key>Dtext</key>
+		<string>开源天气类应用,天气图标很完整。  </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>MVVMReactiveCocoa</string>
+		<key>Durl</key>
+		<string>https://github.com/leichunfeng/MVVMReactiveCocoa</string>
+		<key>Dtext</key>
+		<string>GitBucket 2.0 通过审核啦，她是我在公司实践了一年多 MVVM 和 RAC 的基础上，利用业余时间开发的第三方 GitHub 客户端，旨在能够对想实践 MVVM 和 RAC 的 iOS 开发者有所帮助。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>MVVMReactiveCocoa AppStore地址</string>
+		<key>Durl</key>
+		<string>https://itunes.apple.com/cn/app/id961330940?mt=8</string>
+		<key>Dtext</key>
+		<string>欢迎下载使用GitBucket和收藏MVVMReactiveCocoa。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Tomate</string>
+		<key>Durl</key>
+		<string>https://github.com/dasdom/Tomate</string>
+		<key>Dtext</key>
+		<string>这个圆盘式计时器让你更专注于工作或学习。P.S. App Store 上架收费应用（0.99 欧）。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>StoveFireiOSMenu</string>
+		<key>Durl</key>
+		<string>https://github.com/joeshang/StoveFireiOSMenu</string>
+		<key>Dtext</key>
+		<string>炉火餐饮系统iPad点餐端。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>BaiduFM-Swift</string>
+		<key>Durl</key>
+		<string>https://github.com/belm/BaiduFM-Swift</string>
+		<key>Dtext</key>
+		<string>百度FM, swift语言实现，基于最新xcode6.3+swift1.2,初步只是为了实现功能，代码比较粗燥，后面有时间会整理，支持Apple Watch。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>WNXHuntForCity</string>
+		<key>Durl</key>
+		<string>https://github.com/ZhongTaoTian/WNXHuntForCity</string>
+		<key>Dtext</key>
+		<string>iOS高仿城觅项目（开发思路和代码）。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>ZYChat</string>
+		<key>Durl</key>
+		<string>https://github.com/zyprosoft/ZYChat</string>
+		<key>Dtext</key>
+		<string>关于聊天界面的可消息类型扩展，响应绑定设计。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>NiceAppDemo</string>
+		<key>Durl</key>
+		<string>https://github.com/minxiaoming/NiceAppDemo</string>
+		<key>Dtext</key>
+		<string>仿最美应用-每日最美的钢琴律动效果。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>meituan</string>
+		<key>Durl</key>
+		<string>https://github.com/lookingstars/meituan</string>
+		<key>Dtext</key>
+		<string>美团5.7iOS版（高仿），功能包括，团购首页，高德地图搜索附近美食并显示在地图上，上门服务，商家，友盟分享。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>chuanke</string>
+		<key>Durl</key>
+		<string>https://github.com/lookingstars/chuanke</string>
+		<key>Dtext</key>
+		<string> 高仿百度传课iOS版。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Tuan</string>
+		<key>Durl</key>
+		<string>https://github.com/aiqiuqiu/Tuan</string>
+		<key>Dtext</key>
+		<string>模仿MJ老师iPad版美团（swift版），偶有bug 见谅。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>SXNews</string>
+		<key>Durl</key>
+		<string>https://github.com/dsxNiubility/SXNews</string>
+		<key>Dtext</key>
+		<string> 模仿网易新闻做的新闻软件，完成了主导航页，新闻详情页，图片浏览页，评论页。效果不错，比网上流传的各种和网易新闻UI架构有关的代码都要完整，都要好。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Monkey</string>
+		<key>Durl</key>
+		<string>https://github.com/coderyi/Monkey</string>
+		<key>Dtext</key>
+		<string>Monkey for GitHub是一个GitHub开发者和仓库排名的开源App。这次主要增加了登录GitHub的功能，随手follow和star，并且增加发现模块，包括GitHub的trending，动态，showcases等。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Uther</string>
+		<key>Durl</key>
+		<string>https://github.com/callmewhy/Uthe</string>
+		<key>Dtext</key>
+		<string>跟蠢萌的外星人聊天，还能帮你记事。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Uther itunes下载</string>
+		<key>Durl</key>
+		<string>https://itunes.apple.com/cn/app/uther/id1024104920</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>javapns源代码</string>
+		<key>Durl</key>
+		<string>https://code.google.com/p/javapns/downloads/list</string>
+		<key>Dtext</key>
+		<string>消息推送的java服务端代码，注意：DeviceToken中间不能有空格。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>pushMeBaby</string>
+		<key>Durl</key>
+		<string>https://github.com/stefanhafeneger/PushMeBaby</string>
+		<key>Dtext</key>
+		<string>Mac端消息推送端代码，注意：DeviceToken中间要有空格。</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>JSQNotificationObserverKit</string>
+		<key>Durl</key>
+		<string>https://github.com/jessesquires/JSQNotificationObserverKit</string>
+		<key>Dtext</key>
+		<string>一款轻量、易用的通知发送及响应框架类库。作者是知名开源项目 JSQMessagesViewController（Objective-C 版即时聊天）的作者 Jesse Squires.
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>GLPubSub</string>
+		<key>Durl</key>
+		<string>https://github.com/Glow-Inc/GLPubSub</string>
+		<key>Dtext</key>
+		<string>一个简短实用的 NSNotificationCenter 的封装。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Homeoff</string>
+		<key>Durl</key>
+		<string>https://github.com/lizyyy/Homeoff</string>
+		<key>Dtext</key>
+		<string> 用swift写了一个模仿Launcher通知中心快捷方式的应用。支持20个应用，并增加了一个返回到桌面来解放Home键的功能。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>JDStatusBarNotification</string>
+		<key>Durl</key>
+		<string>https://github.com/jaydee3/JDStatusBarNotification</string>
+		<key>Dtext</key>
+		<string>在状态栏顶部显示通知。可以自定义颜色字体以及动画。支持进度显示以及显示状态指示器。</string>
+	</dict>
+</array>
+</plist>

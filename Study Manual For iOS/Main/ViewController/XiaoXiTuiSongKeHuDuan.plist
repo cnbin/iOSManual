@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>SGPushDemo</string>
+		<key>Durl</key>
+		<string>https://github.com/sagiwei/SGPush/tree/master/SGPushDemo</string>
+		<key>Dtext</key>
+		<string>消息推送客户端。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>Orbiter</string>
+		<key>Durl</key>
+		<string>https://github.com/mattt/Orbiter</string>
+		<key>Dtext</key>
+		<string>消息推送客户端:Push Notification Registration for iOS。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>PushDemo</string>
+		<key>Durl</key>
+		<string>https://github.com/ios44first/PushDemo</string>
+		<key>Dtext</key>
+		<string>客户端消息接收消息代码</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>IOS开发之 ---- IOS8推送消息注册</string>
+		<key>Durl</key>
+		<string>http://blog.sina.com.cn/s/blog_71715bf80102uy2k.html</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>分分钟搞定IOS远程消息推送</string>
+		<key>Durl</key>
+		<string>http://my.oschina.net/u/2340880/blog/413584</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>XMPPFramework</string>
+		<key>Durl</key>
+		<string>https://github.com/robbiehanson/XMPPFramework</string>
+		<key>Dtext</key>
+		<string>XMPPFramework openfire聊天。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>SXTheQQ</string>
+		<key>Durl</key>
+		<string>https://github.com/dsxNiubility/SXTheQQ</string>
+		<key>Dtext</key>
+		<string>用xmppFramework框架编写QQ程序，主要为了练习通讯的一些原理，界面比较渣 必须要先在本地配置好环境才可以运行。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>环信</string>
+		<key>Durl</key>
+		<string>http://www.easemob.com/</string>
+		<key>Dtext</key>
+		<string>给开发者更稳定IM云功能。8200万用户考验，好用！</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>融云</string>
+		<key>Durl</key>
+		<string>http://www.rongcloud.cn/</string>
+		<key>Dtext</key>
+		<string>即时通讯云服务提供商。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>容联云通讯</string>
+		<key>Durl</key>
+		<string>http://www.yuntongxun.com</string>
+		<key>Dtext</key>
+		<string>提供基于互联网通话,视频会议,呼叫中心/IVR,IM等通讯服务。
+</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>chatsecure</string>
+		<key>Durl</key>
+		<string>https://github.com/ChatSecure/ChatSecure-iOS</string>
+		<key>Dtext</key>
+		<string>基于XMPP的iphone、android加密式聊天软件。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>chatsecure官网</string>
+		<key>Durl</key>
+		<string>https://chatsecure.org/</string>
+		<key>Dtext</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>MessageDisplayKit</string>
+		<key>Durl</key>
+		<string>https://github.com/xhzengAIB/MessageDisplayKit</string>
+		<key>Dtext</key>
+		<string>仿微信聊天，参考JSQMessagesViewController。（国人写）</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>JSQMessagesViewController</string>
+		<key>Durl</key>
+		<string>https://github.com/jessesquires/JSQMessagesViewController</string>
+		<key>Dtext</key>
+		<string>气泡聊天界面。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>SunFlower</string>
+		<key>Durl</key>
+		<string>https://github.com/HanYaZhou1990/-SunFlower</string>
+		<key>Dtext</key>
+		<string>环信聊天demo，比较多功能。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>BlueTalk蓝牙聊天</string>
+		<key>Durl</key>
+		<string>http://code4app.com/ios/BlueTalk%E8%93%9D%E7%89%99%E8%81%8A%E5%A4%A9-%E6%89%8B%E6%9C%BA%E4%B9%8B%E9%97%B4/552b8190933bf0291e8b4748</string>
+		<key>Dtext</key>
+		<string> 以MultipeerConnectivity为基础， 实现了简单的蓝牙聊天。</string>
+	</dict>
+</array>
+</plist>

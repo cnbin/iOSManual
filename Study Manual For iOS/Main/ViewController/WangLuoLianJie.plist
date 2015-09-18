@@ -95,123 +95,76 @@
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Transporter</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/nghialv/Transporter</string>
+		<key>Dtext</key>
+		<string>swift， 短小、精悍、易用的多文件（并发或顺序）上传和下载传输库。还支持后台运行、传输进程跟踪、暂停/续传/取消/重试控制等功能。 </string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>STNetTaskQueue</string>
+		<key>Durl</key>
+		<string>https://github.com/kevin0571/STNetTaskQueue</string>
+		<key>Dtext</key>
+		<string>STNetTaskQueue Objective-C 可扩展网络请求管理库。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>CocoaAsyncSocket</string>
+		<key>Durl</key>
+		<string>https://github.com/robbiehanson/CocoaAsyncSocket</string>
+		<key>Dtext</key>
+		<string>在iOS开发中使用socket，一般都是用第三方库AsyncSocket，不得不承认这个库确实很强大。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>GCDAsyncSocket</string>
+		<key>Durl</key>
+		<string>https://github.com/eugenehp/GCDAsyncSocket</string>
 		<key>Dtext</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Just</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/JustHTTP/Just</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>小而美的 HTTP 类。功能简单、直接、完整且健壮性高-- swift。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>Future</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/nghialv/Future</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>基于微框架设计思想的异步执行及结果响应类，代码即简单又干净-- swift。
+</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>MZDownloadManager</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/mzeeshanid/MZDownloadManager</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>下载管理。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>DVR</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/venmo/DVR</string>
 		<key>Dtext</key>
-		<string></string>
+		<string>针对网络请求的测试框架，超实用的工具。且支持 iOS, OSX, watchOS 全平台。</string>
 	</dict>
 	<dict>
 		<key>Dname</key>
-		<string></string>
+		<string>HFDownLoad</string>
 		<key>Durl</key>
-		<string></string>
+		<string>https://github.com/hongfenglt/HFDownLoad</string>
 		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>Dname</key>
-		<string></string>
-		<key>Durl</key>
-		<string></string>
-		<key>Dtext</key>
-		<string></string>
+		<string>iOS开发网络篇之文件下载、大文件下载、断点下载:NSData方式、NSURLConnection方式、NSURLSession下载方式 </string>
 	</dict>
 </array>
 </plist>

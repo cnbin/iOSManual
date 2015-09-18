@@ -61,8 +61,13 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    下拉刷新",@"模糊效果",@"AutoLayout",@"富文本",@"图表",@"表相关",@"隐藏与显示",@"HUD与Toast",@"对话框",@"其他UI",nil];
 
+    if (self.detailtag == 2) {
+    
+                [GlobalResource sharedInstance].jsonString = @"XcodeChaJian";
+        
+    }
+    
     if (self.detailtag == 3) {
         switch ([indexPath row]) {
             case 0:
@@ -129,35 +134,174 @@
 
     }
     
-    if (self.detailtag == 7) {
+    if (self.detailtag == 4) {
         
-    switch ([indexPath row]) {
-        case 0:
-        {
-           [GlobalResource sharedInstance].jsonString = @"AutoLayout";
-          
+        switch ([indexPath row]) {
+            case 0:
+            {
+                [GlobalResource sharedInstance].jsonString = @"DongHua";
+                
+            }
+                break;
+            case 1:
+            {
+                [GlobalResource sharedInstance].jsonString = @"CeHuaYuYouHuaFanHui";
+                
+            }
+                break;
+            case 2:
+            {
+                [GlobalResource sharedInstance].jsonString = @"GifDongHua";
+                
+            }
+                break;
+            case 3:
+            {
+                [GlobalResource sharedInstance].jsonString = @"QiTaDongHua";
+                
+            }
+                break;
+    
         }
-            break;
-        case 1:
-        {
-           [GlobalResource sharedInstance].jsonString = @"AutoLayout";
-
-        }
-            break;
-        case 2:
-        {
-            [GlobalResource sharedInstance].jsonString = @"AutoLayout";
-            
-        }
-            
-            break;
-        case 3:
-        {
-      
-        }
-            break;
     }
-}
+    if (self.detailtag == 5) {
+        
+        switch ([indexPath row]) {
+            case 0:
+            {
+                [GlobalResource sharedInstance].jsonString = @"WangLuoLianJie";
+                
+            }
+                break;
+            case 1:
+            {
+                [GlobalResource sharedInstance].jsonString = @"WangLuoCeShi";
+                
+            }
+                break;
+            case 2:
+            {
+                [GlobalResource sharedInstance].jsonString = @"TuXiangHuoQu";
+                
+            }
+                break;
+            case 3:
+            {
+                [GlobalResource sharedInstance].jsonString = @"WangLuoLiaoTian";
+                
+            }
+                break;
+            case 4:
+            {
+                [GlobalResource sharedInstance].jsonString = @"WebView";
+                
+            }
+                break;
+                
+        }
+    }
+
+    if (self.detailtag == 6) {
+        
+        [GlobalResource sharedInstance].jsonString = @"Model";
+    }
+    
+    if (self.detailtag == 7) {
+         [GlobalResource sharedInstance].jsonString = @"QiTa";
+    }
+    if (self.detailtag == 8) {
+        [GlobalResource sharedInstance].jsonString = @"ShuJuKu";
+    }
+    if (self.detailtag == 9) {
+        [GlobalResource sharedInstance].jsonString = @"HuanChunChuLi";
+    }
+    if (self.detailtag == 10) {
+        [GlobalResource sharedInstance].jsonString = @"PDF";
+    }
+    if (self.detailtag == 11) {
+        [GlobalResource sharedInstance].jsonString = @"TuXiangLiuLanJiChuLi";
+    }
+    if (self.detailtag == 12) {
+        [GlobalResource sharedInstance].jsonString = @"SheXiangPaiZhaoShiPinYinPinChuLi";
+    }
+    if (self.detailtag == 13) {
+        [GlobalResource sharedInstance].jsonString = @"XiangYingShiKuangJia";
+    }
+    if (self.detailtag == 14) {
+        switch ([indexPath row]) {
+                
+            case 0:
+            {
+                [GlobalResource sharedInstance].jsonString = @"XiaoXiTuiSongKeHuDuan";
+
+            }
+                break;
+            case 1:
+            {
+                [GlobalResource sharedInstance].jsonString = @"XiaoXiTuiSongFuWuDuan";
+
+            }
+                break;
+            case 2:
+            {
+                [GlobalResource sharedInstance].jsonString = @"TongZhiXiangGuan";
+                
+            }
+                break;
+        }
+
+    }
+    if (self.detailtag == 15) {
+        [GlobalResource sharedInstance].jsonString = @"BanBenXinAPIDeDemo";
+    }
+    if (self.detailtag == 16) {
+        [GlobalResource sharedInstance].jsonString = @"DaiMaAnQuanYuMiMa";
+    }
+    if (self.detailtag == 17) {
+        [GlobalResource sharedInstance].jsonString = @"CeShiYuTiaoShi";
+    }
+    if (self.detailtag == 18) {
+        [GlobalResource sharedInstance].jsonString = @"AppleWatch";
+    }
+    if (self.detailtag == 19) {
+        [GlobalResource sharedInstance].jsonString = @"WanZhengXiangMu";
+    }
+    if (self.detailtag == 20) {
+        [GlobalResource sharedInstance].jsonString = @"HaoDeWenZhang";
+    }
+    if (self.detailtag == 21) {
+        [GlobalResource sharedInstance].jsonString = @"VPN";
+    }
+    if (self.detailtag == 22) {
+        [GlobalResource sharedInstance].jsonString = @"MeiGongZiYuan";
+    }
+    
+    if (self.detailtag == 23) {
+        
+        switch ([indexPath row]) {
+                
+            case 0:
+            {
+                [GlobalResource sharedInstance].jsonString = @"KaiFaZiLiao";
+                
+            }
+                break;
+            case 1:
+            {
+                [GlobalResource sharedInstance].jsonString = @"swift";
+                
+            }
+                break;
+            case 2:
+            {
+                [GlobalResource sharedInstance].jsonString = @"TaRenKaiYuanZongJie";
+                
+            }
+                break;
+        }
+        
+    }
+    
       [self performSegueWithIdentifier:@"feedSegue" sender:nil];
    
 }

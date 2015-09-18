@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Dname</key>
+		<string>YTKKeyValueStore</string>
+		<key>Durl</key>
+		<string>https://github.com/yuantiku/YTKKeyValueStore</string>
+		<key>Dtext</key>
+		<string> Key-Value存储工具类。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>TMCache</string>
+		<key>Durl</key>
+		<string>https://github.com/tumblr/TMCache</string>
+		<key>Dtext</key>
+		<string>TMCache 是 Tumblr 开源的一个基于 key/value 的数据缓存类库,可以用于缓存一些临时数据或者需要频繁加载的数据,比如某些下载的数据或者一些临时处理结果。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>JLKeychain</string>
+		<key>Durl</key>
+		<string>https://github.com/jl322137/JLKeychain</string>
+		<key>Dtext</key>
+		<string>快捷使用keychain存储数据的类，使keychain像NSUserDefaults一样工作。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>sskeychain</string>
+		<key>Durl</key>
+		<string>https://github.com/soffes/sskeychain</string>
+		<key>Dtext</key>
+		<string>SSKeyChains对苹果安全框架API进行了简单封装,支持对存储在钥匙串中密码、账户进行访问,包括读取、删除和设置。</string>
+	</dict>
+	<dict>
+		<key>Dname</key>
+		<string>KeychainAccess</string>
+		<key>Durl</key>
+		<string>https://github.com/kishikawakatsumi/KeychainAccess</string>
+		<key>Dtext</key>
+		<string>管理Keychain接入的小助手。</string>
+	</dict>
+</array>
+</plist>
