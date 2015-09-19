@@ -84,20 +84,20 @@
         case 0:
         {
             self.tag =0;
-
         }
             break;
         case 1:
         {
-            iOSBlogTableViewController *  iOSblogTableViewController = [[iOSBlogTableViewController alloc]init];
-            [self.navigationController pushViewController:iOSblogTableViewController  animated:YES];
+            [self performSegueWithIdentifier:@"blogSegue" sender:nil];
             self.tag =1;
+            
         }
             break;
         case 2:
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"Xcode插件",nil];
             self.tag =2;
+            self.detailTitle = [_titleArray objectAtIndex:2];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -115,6 +115,7 @@
                             @"对话框",
                             @"其他UI",nil];
             self.tag =3;
+            self.detailTitle = [_titleArray objectAtIndex:3];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -126,6 +127,7 @@
                             @"gif动画",
                             @"其他动画",nil];
             self.tag =4;
+            self.detailTitle = [_titleArray objectAtIndex:4];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -138,6 +140,7 @@
                             @"网络聊天",
                             @"WebView",nil];
             self.tag =5;
+            self.detailTitle = [_titleArray objectAtIndex:5];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -146,6 +149,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"Model",nil];
             self.tag =6;
+            self.detailTitle = [_titleArray objectAtIndex:6];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -154,6 +158,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"其他",nil];
             self.tag =7;
+            self.detailTitle = [_titleArray objectAtIndex:7];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -162,6 +167,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"数据库",nil];
             self.tag =8;
+            self.detailTitle = [_titleArray objectAtIndex:8];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -169,6 +175,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"缓存处理",nil];
             self.tag =9;
+            self.detailTitle = [_titleArray objectAtIndex:9];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -176,6 +183,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"PDF",nil];
             self.tag =10;
+            self.detailTitle = [_titleArray objectAtIndex:10];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -183,6 +191,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"图像浏览及处理",nil];
             self.tag =11;
+            self.detailTitle = [_titleArray objectAtIndex:11];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -190,6 +199,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"摄像照相视频音频处理",nil];
             self.tag =12;
+            self.detailTitle = [_titleArray objectAtIndex:12];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -197,6 +207,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"响应式框架",nil];
             self.tag =13;
+            self.detailTitle = [_titleArray objectAtIndex:13];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -208,6 +219,7 @@
                             @"通知相关",
                             nil];
             self.tag =14;
+            self.detailTitle = [_titleArray objectAtIndex:14];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -215,6 +227,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"版本新API的Demo",nil];
             self.tag =15;
+            self.detailTitle = [_titleArray objectAtIndex:15];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -222,6 +235,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"代码安全与密码",nil];
             self.tag =16;
+            self.detailTitle = [_titleArray objectAtIndex:16];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -229,6 +243,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"测试与调试",nil];
             self.tag =17;
+            self.detailTitle = [_titleArray objectAtIndex:17];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -237,6 +252,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"AppleWatch",nil];
             self.tag =18;
+            self.detailTitle = [_titleArray objectAtIndex:18];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -245,6 +261,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"完整项目",nil];
             self.tag =19;
+            self.detailTitle = [_titleArray objectAtIndex:19];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -252,6 +269,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"好的文章",nil];
             self.tag =20;
+            self.detailTitle = [_titleArray objectAtIndex:20];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -259,6 +277,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"VPN",nil];
             self.tag =21;
+            self.detailTitle = [_titleArray objectAtIndex:21];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -266,6 +285,7 @@
         {
             _detailArray = [[NSMutableArray alloc]initWithObjects:@"美工资源",nil];
             self.tag =22;
+            self.detailTitle = [_titleArray objectAtIndex:22];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -277,6 +297,7 @@
                             @"他人开源总结",
                             nil];
             self.tag =23;
+            self.detailTitle = [_titleArray objectAtIndex:23];
             [self performSegueWithIdentifier:@"detailSegue" sender:nil];
         }
             break;
@@ -289,14 +310,13 @@
 
 #pragma mark - Navigation
 
-//// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+ 
     if ([segue.identifier isEqualToString:@"detailSegue"]){
         [GlobalResource sharedInstance].detailArray = _detailArray;
         DetailMainTableViewControlelr * de = segue.destinationViewController;
         de.detailtag = self.tag;
+        de.detailTitle = self.detailTitle;
     }
     
 }

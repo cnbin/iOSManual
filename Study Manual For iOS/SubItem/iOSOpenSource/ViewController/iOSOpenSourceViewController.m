@@ -7,7 +7,7 @@
 //
 
 #import "iOSOpenSourceViewController.h"
-#import "iOSOpenSourceWebKitViewController.h"
+#import "iOSBlogWebViewViewController.h"
 #import "SearchResultsTableViewController.h"
 
 @interface iOSOpenSourceViewController ()
@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"开源项目";
+    self.title = @"top1000";
     
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *plistPath = [bundle pathForResource:@"iOSOpenSourcePlist"
@@ -59,7 +59,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    NSLog(@"[self.dataList count] is %lu",(unsigned long)[self.dataList count]);
     return [self.dataList count];
 
 }
@@ -144,9 +143,11 @@
    [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"url"];
    [GlobalResource sharedInstance].iOSOpenSourceURLName = [rowDict objectForKey:@"name"];
     
-    iOSOpenSourceWebKitViewController * iOSopenSourceWebKitViewController = [[iOSOpenSourceWebKitViewController alloc]init];
     
-    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  iOSopenSourceWebKitViewController] animated:YES completion:nil];
+    iOSBlogWebViewViewController * iOSblogWebViewViewController = [[iOSBlogWebViewViewController alloc]init];
+    
+   [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  iOSblogWebViewViewController] animated:YES completion:nil];
+    
 
 }
 

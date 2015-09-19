@@ -17,10 +17,11 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-
- 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    
+    [[UINavigationBar appearance]setBarTintColor:SystemThemeColor];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];//系统返回键的颜色
+    
     return YES;
 }
 

@@ -15,5 +15,6 @@
 @property (nonatomic,strong) UIButton * btn1;
 @property (nonatomic,strong) NSMutableArray * detailArray;
 @property (nonatomic,assign) NSInteger tag;
+@property (nonatomic,strong) NSString * detailTitle;
 
 @end

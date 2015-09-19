@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GlobalResource : NSObject
 
+@interface GlobalResource : NSObject
+#define SystemThemeColor [UIColor colorWithRed:0 green:199.0f/255.0f blue:140.0f/255.0f alpha:1.0f]
 + (instancetype)sharedInstance;
 @property (nonatomic,strong) NSString * iOSOpenSourceURL;
 @property (nonatomic,strong) NSString * iOSOpenSourceURLName;

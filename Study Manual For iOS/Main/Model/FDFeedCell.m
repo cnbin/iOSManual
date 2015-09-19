@@ -12,19 +12,9 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *contentLabel;
-
 @property (strong, nonatomic) IBOutlet UIImageView *contentImageView;
-
 @property (strong, nonatomic) IBOutlet UILabel *usernameLabel;
-
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
-
-
-//@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
-//@property (nonatomic, weak) IBOutlet UILabel *contentLabel;
-//@property (nonatomic, weak) IBOutlet UIImageView *contentImageView;
-//@property (nonatomic, weak) IBOutlet UILabel *usernameLabel;
-//@property (nonatomic, weak) IBOutlet UILabel *timeLabel;
 
 @end
 
@@ -41,7 +31,6 @@
 - (void)setEntity:(FDFeedEntity *)entity
 {
     _entity = entity;
-//
     self.titleLabel.text = entity.title;
     self.contentLabel.text = entity.content;
 //    self.contentImageView.image = entity.imageName.length > 0 ? [UIImage imageNamed:entity.imageName] : nil;

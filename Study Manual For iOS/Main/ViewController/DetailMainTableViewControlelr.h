@@ -11,6 +11,7 @@
 @interface DetailMainTableViewControlelr : UITableViewController
 
 @property (nonatomic,assign) NSInteger detailtag;
-
+@property (nonatomic,strong) NSString * detailTitle;
+@property (nonatomic,strong) NSString * feedTitle;
 @end
 

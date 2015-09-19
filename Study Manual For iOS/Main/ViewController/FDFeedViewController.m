@@ -1,9 +1,9 @@
 //
-//  FDFeedViewController.m
-//  Demo
+//  MainViewController.h
+//  Study Manual For iOS
 //
-//  Created by sunnyxx on 15/4/16.
-//  Copyright (c) 2015年 forkingdog. All rights reserved.
+//  Created by Apple on 9/14/15.
+//  Copyright (c) 2015 广东华讯网络投资有限公司. All rights reserved.
 //
 
 #import "FDFeedViewController.h"
@@ -21,10 +21,11 @@
 
 - (void)viewDidLoad
 {
+    self.title = self.feedTitle;
     [super viewDidLoad];
     
     self.tableView.estimatedRowHeight = 200;
-    self.tableView.fd_debugLogEnabled = YES;
+    self.tableView.fd_debugLogEnabled = NO;
     
     self.cellHeightCacheEnabled = YES;
     
@@ -33,8 +34,10 @@
         [self.feedEntitySections addObject:self.prototypeEntitiesFromJSON.mutableCopy];
         [self.tableView reloadData];
     }];
-
+    
 }
+
+
 
 - (void)buildTestDataThen:(void (^)(void))then
 {
@@ -45,13 +48,12 @@
         NSString *dataFilePath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"];
         NSData *data = [NSData dataWithContentsOfFile:dataFilePath];
         NSDictionary *rootDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-       // NSArray *feedDicts = rootDict[@"AutoLayout"];
         
-        NSArray *feedDicts = rootDict[[GlobalResource sharedInstance].jsonString ];
+        self.feedDicts= rootDict[[GlobalResource sharedInstance].jsonString];
         
         // Convert to `FDFeedEntity`
         NSMutableArray *entities = @[].mutableCopy;
-        [feedDicts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [self.feedDicts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
             [entities addObject:[[FDFeedEntity alloc] initWithDictionary:obj]];
         }];
         self.prototypeEntitiesFromJSON = entities;
@@ -91,8 +93,17 @@
 #pragma mark - UITableViewDelegate
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  
-    NSLog(@"indexpath is %ld",(long)indexPath.row);
+
+    NSUInteger row = [indexPath row];
+    NSLog(@"[self.feedDicts objectAtIndex:row] is %@",[self.feedDicts objectAtIndex:row]);
+    NSDictionary *rowDict = [self.feedDicts objectAtIndex:row];
+    [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"Durl"];
+    [GlobalResource sharedInstance].iOSOpenSourceURLName = [rowDict objectForKey:@"Dname"];
+    
+    iOSOpenSourceWebKitViewController * iOSopenSourceWebKitViewController = [[iOSOpenSourceWebKitViewController alloc]init];
+    
+    [self.navigationController pushViewController: iOSopenSourceWebKitViewController animated:YES];
+    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -108,12 +119,12 @@
     }
 }
 
-- (FDFeedEntity *)randomEntity
-{
-    NSUInteger randomNumber = arc4random_uniform((int32_t)self.prototypeEntitiesFromJSON.count);
-    FDFeedEntity *randomEntity = self.prototypeEntitiesFromJSON[randomNumber];
-    return randomEntity;
-}
+//- (FDFeedEntity *)randomEntity
+//{
+//    NSUInteger randomNumber = arc4random_uniform((int32_t)self.prototypeEntitiesFromJSON.count);
+//    FDFeedEntity *randomEntity = self.prototypeEntitiesFromJSON[randomNumber];
+//    return randomEntity;
+//}
 
 
 - (IBAction)backButton:(id)sender {

@@ -15,4 +15,5 @@
 #import "Util/GlobalResource/GlobalResource.h"
 #import "Util/Toast/Toast+UIView.h"
 #import "Util/WebKit/Reachability.h"
+#import "iOSOpenSourceWebKitViewController.h"
 #endif

@@ -7,46 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1844B4971BAB9EDC00AEE32E /* TuXiangHuoQu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4961BAB9EDC00AEE32E /* TuXiangHuoQu.plist */; };
-		1844B4991BAB9FF400AEE32E /* WangLuoLiaoTian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4981BAB9FF400AEE32E /* WangLuoLiaoTian.plist */; };
-		1844B49B1BABA10900AEE32E /* WangLuoCeShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B49A1BABA10900AEE32E /* WangLuoCeShi.plist */; };
-		1844B49D1BABA17E00AEE32E /* WebView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B49C1BABA17E00AEE32E /* WebView.plist */; };
-		1844B49F1BABA1F800AEE32E /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B49E1BABA1F800AEE32E /* Model.plist */; };
-		1844B4A11BABA35000AEE32E /* QiTa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4A01BABA35000AEE32E /* QiTa.plist */; };
-		1844B4A31BABA6F800AEE32E /* ShuJuKu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4A21BABA6F800AEE32E /* ShuJuKu.plist */; };
-		1844B4A51BABA82B00AEE32E /* HuanChunChuLi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4A41BABA82B00AEE32E /* HuanChunChuLi.plist */; };
-		1844B4A71BABA8AD00AEE32E /* PDF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4A61BABA8AD00AEE32E /* PDF.plist */; };
-		1844B4A91BABA8F400AEE32E /* TuXiangChuLi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4A81BABA8F400AEE32E /* TuXiangChuLi.plist */; };
-		1844B4AB1BABAB1D00AEE32E /* SheXiangPaiZhaoShiPinYinPinChuLi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4AA1BABAB1D00AEE32E /* SheXiangPaiZhaoShiPinYinPinChuLi.plist */; };
-		1844B4AD1BABAD3200AEE32E /* XiangYingShiKuangJia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4AC1BABAD3200AEE32E /* XiangYingShiKuangJia.plist */; };
-		1844B4AF1BABADDA00AEE32E /* XiaoXiTuiSongKeHuDuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4AE1BABADDA00AEE32E /* XiaoXiTuiSongKeHuDuan.plist */; };
-		1844B4B11BABAE4600AEE32E /* XiaoXiTuiSongFuWuDuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4B01BABAE4600AEE32E /* XiaoXiTuiSongFuWuDuan.plist */; };
-		1844B4B31BABAE9100AEE32E /* TongZhiXiangGuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4B21BABAE9100AEE32E /* TongZhiXiangGuan.plist */; };
-		1844B4B51BABAF2800AEE32E /* BanBenXinAPIDeDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4B41BABAF2800AEE32E /* BanBenXinAPIDeDemo.plist */; };
-		1844B4B71BABAFFC00AEE32E /* DaiMaAnQuanYuMiMa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4B61BABAFFC00AEE32E /* DaiMaAnQuanYuMiMa.plist */; };
-		1844B4B91BABB0C600AEE32E /* CeShiYuTiaoShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4B81BABB0C600AEE32E /* CeShiYuTiaoShi.plist */; };
-		1844B4BB1BABB23300AEE32E /* AppleWatch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4BA1BABB23300AEE32E /* AppleWatch.plist */; };
-		1844B4BD1BABB31000AEE32E /* VPN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4BC1BABB31000AEE32E /* VPN.plist */; };
-		1844B4BF1BABB39100AEE32E /* WanZhengXiangMu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4BE1BABB39100AEE32E /* WanZhengXiangMu.plist */; };
-		1844B4C11BABB67800AEE32E /* HaoDeWenZhang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4C01BABB67800AEE32E /* HaoDeWenZhang.plist */; };
-		1844B4C31BABB6D200AEE32E /* XcodeChaJian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4C21BABB6D200AEE32E /* XcodeChaJian.plist */; };
-		1844B4C71BABB91000AEE32E /* MeiGongZiYuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4C61BABB91000AEE32E /* MeiGongZiYuan.plist */; };
-		1844B4C91BABB9AE00AEE32E /* QiTaZiYuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4C81BABB9AE00AEE32E /* QiTaZiYuan.plist */; };
-		1844B4CB1BABBA1300AEE32E /* KaiFaZiLiao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4CA1BABBA1300AEE32E /* KaiFaZiLiao.plist */; };
-		1844B4CD1BABBB5400AEE32E /* swift.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4CC1BABBB5400AEE32E /* swift.plist */; };
-		1844B4CF1BABBC0A00AEE32E /* TaRenKaiYuanZongJie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1844B4CE1BABBC0A00AEE32E /* TaRenKaiYuanZongJie.plist */; };
-		185D314B1BAA5071009DBF56 /* FuWenBen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314A1BAA5071009DBF56 /* FuWenBen.plist */; };
-		185D314D1BAA534A009DBF56 /* TuBiao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314C1BAA534A009DBF56 /* TuBiao.plist */; };
-		185D314F1BAA548E009DBF56 /* BiaoXiangGuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */; };
-		185D31511BAA5713009DBF56 /* YinCangYuXianShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */; };
-		185D31531BAA57AF009DBF56 /* HUDYuToast.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31521BAA57AF009DBF56 /* HUDYuToast.plist */; };
-		185D31551BAA5844009DBF56 /* DuiHuaKuang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31541BAA5844009DBF56 /* DuiHuaKuang.plist */; };
-		185D31571BAA5A37009DBF56 /* QiTaUI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31561BAA5A37009DBF56 /* QiTaUI.plist */; };
-		185D31591BAA5FA1009DBF56 /* DongHua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31581BAA5FA1009DBF56 /* DongHua.plist */; };
-		185D315B1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D315A1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist */; };
-		185D315D1BAA6322009DBF56 /* GifDongHua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D315C1BAA6322009DBF56 /* GifDongHua.plist */; };
-		185D315F1BAA6402009DBF56 /* QiTaDongHua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D315E1BAA6402009DBF56 /* QiTaDongHua.plist */; };
-		185D31611BAA68B8009DBF56 /* WangLuoLianJie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185D31601BAA68B8009DBF56 /* WangLuoLianJie.plist */; };
+		1844B4D21BAC00F600AEE32E /* iOSBlogWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844B4D11BAC00F600AEE32E /* iOSBlogWebViewViewController.m */; };
 		186B5FCB1BA6790A002B2222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B5FCA1BA6790A002B2222 /* main.m */; };
 		186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B5FCD1BA6790A002B2222 /* AppDelegate.m */; };
 		186B5FD41BA6790A002B2222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186B5FD21BA6790A002B2222 /* Main.storyboard */; };
@@ -75,9 +36,6 @@
 		18A644471BAABD0C00176345 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644461BAABD0C00176345 /* data.json */; };
 		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
 		18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */; };
-		18D167B31BA9878A006F34E9 /* XiaLaShuaXin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */; };
-		18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */; };
-		18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167B61BA9883E006F34E9 /* AutoLayout.plist */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -92,46 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1844B4961BAB9EDC00AEE32E /* TuXiangHuoQu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TuXiangHuoQu.plist; path = Main/ViewController/TuXiangHuoQu.plist; sourceTree = "<group>"; };
-		1844B4981BAB9FF400AEE32E /* WangLuoLiaoTian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WangLuoLiaoTian.plist; path = Main/ViewController/WangLuoLiaoTian.plist; sourceTree = "<group>"; };
-		1844B49A1BABA10900AEE32E /* WangLuoCeShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WangLuoCeShi.plist; path = Main/ViewController/WangLuoCeShi.plist; sourceTree = "<group>"; };
-		1844B49C1BABA17E00AEE32E /* WebView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WebView.plist; path = Main/ViewController/WebView.plist; sourceTree = "<group>"; };
-		1844B49E1BABA1F800AEE32E /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
-		1844B4A01BABA35000AEE32E /* QiTa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QiTa.plist; path = Main/ViewController/QiTa.plist; sourceTree = "<group>"; };
-		1844B4A21BABA6F800AEE32E /* ShuJuKu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ShuJuKu.plist; path = Main/ViewController/ShuJuKu.plist; sourceTree = "<group>"; };
-		1844B4A41BABA82B00AEE32E /* HuanChunChuLi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HuanChunChuLi.plist; path = Main/ViewController/HuanChunChuLi.plist; sourceTree = "<group>"; };
-		1844B4A61BABA8AD00AEE32E /* PDF.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PDF.plist; path = Main/ViewController/PDF.plist; sourceTree = "<group>"; };
-		1844B4A81BABA8F400AEE32E /* TuXiangChuLi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TuXiangChuLi.plist; path = Main/ViewController/TuXiangChuLi.plist; sourceTree = "<group>"; };
-		1844B4AA1BABAB1D00AEE32E /* SheXiangPaiZhaoShiPinYinPinChuLi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SheXiangPaiZhaoShiPinYinPinChuLi.plist; path = Main/ViewController/SheXiangPaiZhaoShiPinYinPinChuLi.plist; sourceTree = "<group>"; };
-		1844B4AC1BABAD3200AEE32E /* XiangYingShiKuangJia.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XiangYingShiKuangJia.plist; path = Main/ViewController/XiangYingShiKuangJia.plist; sourceTree = "<group>"; };
-		1844B4AE1BABADDA00AEE32E /* XiaoXiTuiSongKeHuDuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XiaoXiTuiSongKeHuDuan.plist; path = Main/ViewController/XiaoXiTuiSongKeHuDuan.plist; sourceTree = "<group>"; };
-		1844B4B01BABAE4600AEE32E /* XiaoXiTuiSongFuWuDuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XiaoXiTuiSongFuWuDuan.plist; path = Main/ViewController/XiaoXiTuiSongFuWuDuan.plist; sourceTree = "<group>"; };
-		1844B4B21BABAE9100AEE32E /* TongZhiXiangGuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TongZhiXiangGuan.plist; path = Main/ViewController/TongZhiXiangGuan.plist; sourceTree = "<group>"; };
-		1844B4B41BABAF2800AEE32E /* BanBenXinAPIDeDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BanBenXinAPIDeDemo.plist; path = Main/ViewController/BanBenXinAPIDeDemo.plist; sourceTree = "<group>"; };
-		1844B4B61BABAFFC00AEE32E /* DaiMaAnQuanYuMiMa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DaiMaAnQuanYuMiMa.plist; path = Main/ViewController/DaiMaAnQuanYuMiMa.plist; sourceTree = "<group>"; };
-		1844B4B81BABB0C600AEE32E /* CeShiYuTiaoShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CeShiYuTiaoShi.plist; path = Main/ViewController/CeShiYuTiaoShi.plist; sourceTree = "<group>"; };
-		1844B4BA1BABB23300AEE32E /* AppleWatch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppleWatch.plist; path = Main/ViewController/AppleWatch.plist; sourceTree = "<group>"; };
-		1844B4BC1BABB31000AEE32E /* VPN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = VPN.plist; path = Main/ViewController/VPN.plist; sourceTree = "<group>"; };
-		1844B4BE1BABB39100AEE32E /* WanZhengXiangMu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WanZhengXiangMu.plist; path = Main/ViewController/WanZhengXiangMu.plist; sourceTree = "<group>"; };
-		1844B4C01BABB67800AEE32E /* HaoDeWenZhang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HaoDeWenZhang.plist; path = Main/ViewController/HaoDeWenZhang.plist; sourceTree = "<group>"; };
-		1844B4C21BABB6D200AEE32E /* XcodeChaJian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XcodeChaJian.plist; path = Main/ViewController/XcodeChaJian.plist; sourceTree = "<group>"; };
-		1844B4C61BABB91000AEE32E /* MeiGongZiYuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MeiGongZiYuan.plist; path = Main/ViewController/MeiGongZiYuan.plist; sourceTree = "<group>"; };
-		1844B4C81BABB9AE00AEE32E /* QiTaZiYuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QiTaZiYuan.plist; path = Main/ViewController/QiTaZiYuan.plist; sourceTree = "<group>"; };
-		1844B4CA1BABBA1300AEE32E /* KaiFaZiLiao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KaiFaZiLiao.plist; path = Main/ViewController/KaiFaZiLiao.plist; sourceTree = "<group>"; };
-		1844B4CC1BABBB5400AEE32E /* swift.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = swift.plist; path = Main/ViewController/swift.plist; sourceTree = "<group>"; };
-		1844B4CE1BABBC0A00AEE32E /* TaRenKaiYuanZongJie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TaRenKaiYuanZongJie.plist; path = Main/ViewController/TaRenKaiYuanZongJie.plist; sourceTree = "<group>"; };
-		185D314A1BAA5071009DBF56 /* FuWenBen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FuWenBen.plist; path = Main/ViewController/FuWenBen.plist; sourceTree = "<group>"; };
-		185D314C1BAA534A009DBF56 /* TuBiao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TuBiao.plist; path = Main/ViewController/TuBiao.plist; sourceTree = "<group>"; };
-		185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BiaoXiangGuan.plist; path = Main/ViewController/BiaoXiangGuan.plist; sourceTree = "<group>"; };
-		185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = YinCangYuXianShi.plist; path = Main/ViewController/YinCangYuXianShi.plist; sourceTree = "<group>"; };
-		185D31521BAA57AF009DBF56 /* HUDYuToast.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HUDYuToast.plist; path = Main/ViewController/HUDYuToast.plist; sourceTree = "<group>"; };
-		185D31541BAA5844009DBF56 /* DuiHuaKuang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DuiHuaKuang.plist; path = Main/ViewController/DuiHuaKuang.plist; sourceTree = "<group>"; };
-		185D31561BAA5A37009DBF56 /* QiTaUI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QiTaUI.plist; path = Main/ViewController/QiTaUI.plist; sourceTree = "<group>"; };
-		185D31581BAA5FA1009DBF56 /* DongHua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DongHua.plist; path = Main/ViewController/DongHua.plist; sourceTree = "<group>"; };
-		185D315A1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CeHuaYuYouHuaFanHui.plist; path = Main/ViewController/CeHuaYuYouHuaFanHui.plist; sourceTree = "<group>"; };
-		185D315C1BAA6322009DBF56 /* GifDongHua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GifDongHua.plist; path = Main/ViewController/GifDongHua.plist; sourceTree = "<group>"; };
-		185D315E1BAA6402009DBF56 /* QiTaDongHua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QiTaDongHua.plist; path = Main/ViewController/QiTaDongHua.plist; sourceTree = "<group>"; };
-		185D31601BAA68B8009DBF56 /* WangLuoLianJie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WangLuoLianJie.plist; path = Main/ViewController/WangLuoLianJie.plist; sourceTree = "<group>"; };
+		1844B4D01BAC00F600AEE32E /* iOSBlogWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogWebViewViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogWebViewViewController.h; sourceTree = "<group>"; };
+		1844B4D11BAC00F600AEE32E /* iOSBlogWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogWebViewViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogWebViewViewController.m; sourceTree = "<group>"; };
 		186B5FC51BA6790A002B2222 /* Study Manual For iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Manual For iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186B5FC91BA6790A002B2222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186B5FCA1BA6790A002B2222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,9 +100,6 @@
 		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
 		18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMainTableViewControlelr.h; path = Main/ViewController/DetailMainTableViewControlelr.h; sourceTree = "<group>"; };
 		18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMainTableViewControlelr.m; path = Main/ViewController/DetailMainTableViewControlelr.m; sourceTree = "<group>"; };
-		18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XiaLaShuaXin.plist; path = Main/ViewController/XiaLaShuaXin.plist; sourceTree = "<group>"; };
-		18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MoHuXiaoGuo.plist; path = Main/ViewController/MoHuXiaoGuo.plist; sourceTree = "<group>"; };
-		18D167B61BA9883E006F34E9 /* AutoLayout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AutoLayout.plist; path = Main/ViewController/AutoLayout.plist; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2D89DD646F454E642B564A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,49 +241,6 @@
 				186B5FF71BA67DCC002B2222 /* MainViewController.m */,
 				18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */,
 				18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */,
-				18D167B21BA9878A006F34E9 /* XiaLaShuaXin.plist */,
-				18D167B41BA987F0006F34E9 /* MoHuXiaoGuo.plist */,
-				18D167B61BA9883E006F34E9 /* AutoLayout.plist */,
-				185D314A1BAA5071009DBF56 /* FuWenBen.plist */,
-				185D314C1BAA534A009DBF56 /* TuBiao.plist */,
-				185D314E1BAA548E009DBF56 /* BiaoXiangGuan.plist */,
-				185D31501BAA5713009DBF56 /* YinCangYuXianShi.plist */,
-				185D31521BAA57AF009DBF56 /* HUDYuToast.plist */,
-				185D31541BAA5844009DBF56 /* DuiHuaKuang.plist */,
-				185D31561BAA5A37009DBF56 /* QiTaUI.plist */,
-				185D31581BAA5FA1009DBF56 /* DongHua.plist */,
-				185D315A1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist */,
-				185D315C1BAA6322009DBF56 /* GifDongHua.plist */,
-				185D315E1BAA6402009DBF56 /* QiTaDongHua.plist */,
-				185D31601BAA68B8009DBF56 /* WangLuoLianJie.plist */,
-				1844B4961BAB9EDC00AEE32E /* TuXiangHuoQu.plist */,
-				1844B4981BAB9FF400AEE32E /* WangLuoLiaoTian.plist */,
-				1844B49A1BABA10900AEE32E /* WangLuoCeShi.plist */,
-				1844B49C1BABA17E00AEE32E /* WebView.plist */,
-				1844B49E1BABA1F800AEE32E /* Model.plist */,
-				1844B4A01BABA35000AEE32E /* QiTa.plist */,
-				1844B4A21BABA6F800AEE32E /* ShuJuKu.plist */,
-				1844B4A41BABA82B00AEE32E /* HuanChunChuLi.plist */,
-				1844B4A61BABA8AD00AEE32E /* PDF.plist */,
-				1844B4A81BABA8F400AEE32E /* TuXiangChuLi.plist */,
-				1844B4AA1BABAB1D00AEE32E /* SheXiangPaiZhaoShiPinYinPinChuLi.plist */,
-				1844B4AC1BABAD3200AEE32E /* XiangYingShiKuangJia.plist */,
-				1844B4AE1BABADDA00AEE32E /* XiaoXiTuiSongKeHuDuan.plist */,
-				1844B4B01BABAE4600AEE32E /* XiaoXiTuiSongFuWuDuan.plist */,
-				1844B4B21BABAE9100AEE32E /* TongZhiXiangGuan.plist */,
-				1844B4B41BABAF2800AEE32E /* BanBenXinAPIDeDemo.plist */,
-				1844B4B61BABAFFC00AEE32E /* DaiMaAnQuanYuMiMa.plist */,
-				1844B4B81BABB0C600AEE32E /* CeShiYuTiaoShi.plist */,
-				1844B4BA1BABB23300AEE32E /* AppleWatch.plist */,
-				1844B4BC1BABB31000AEE32E /* VPN.plist */,
-				1844B4BE1BABB39100AEE32E /* WanZhengXiangMu.plist */,
-				1844B4C01BABB67800AEE32E /* HaoDeWenZhang.plist */,
-				1844B4C21BABB6D200AEE32E /* XcodeChaJian.plist */,
-				1844B4C61BABB91000AEE32E /* MeiGongZiYuan.plist */,
-				1844B4C81BABB9AE00AEE32E /* QiTaZiYuan.plist */,
-				1844B4CA1BABBA1300AEE32E /* KaiFaZiLiao.plist */,
-				1844B4CC1BABBB5400AEE32E /* swift.plist */,
-				1844B4CE1BABBC0A00AEE32E /* TaRenKaiYuanZongJie.plist */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -578,6 +452,8 @@
 				186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */,
 				186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */,
 				186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */,
+				1844B4D01BAC00F600AEE32E /* iOSBlogWebViewViewController.h */,
+				1844B4D11BAC00F600AEE32E /* iOSBlogWebViewViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -713,56 +589,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1844B4C31BABB6D200AEE32E /* XcodeChaJian.plist in Resources */,
-				18D167B51BA987F0006F34E9 /* MoHuXiaoGuo.plist in Resources */,
-				1844B4A91BABA8F400AEE32E /* TuXiangChuLi.plist in Resources */,
 				18A644471BAABD0C00176345 /* data.json in Resources */,
-				185D315B1BAA6025009DBF56 /* CeHuaYuYouHuaFanHui.plist in Resources */,
-				1844B4C11BABB67800AEE32E /* HaoDeWenZhang.plist in Resources */,
-				1844B4B31BABAE9100AEE32E /* TongZhiXiangGuan.plist in Resources */,
-				1844B4AF1BABADDA00AEE32E /* XiaoXiTuiSongKeHuDuan.plist in Resources */,
-				1844B4971BAB9EDC00AEE32E /* TuXiangHuoQu.plist in Resources */,
-				1844B4C91BABB9AE00AEE32E /* QiTaZiYuan.plist in Resources */,
-				185D31611BAA68B8009DBF56 /* WangLuoLianJie.plist in Resources */,
 				186B60151BA6A0A7002B2222 /* iOSOpenSourcePlist.plist in Resources */,
-				1844B4BD1BABB31000AEE32E /* VPN.plist in Resources */,
-				185D31551BAA5844009DBF56 /* DuiHuaKuang.plist in Resources */,
-				185D31571BAA5A37009DBF56 /* QiTaUI.plist in Resources */,
-				1844B4AB1BABAB1D00AEE32E /* SheXiangPaiZhaoShiPinYinPinChuLi.plist in Resources */,
-				1844B49D1BABA17E00AEE32E /* WebView.plist in Resources */,
-				185D314F1BAA548E009DBF56 /* BiaoXiangGuan.plist in Resources */,
-				185D31591BAA5FA1009DBF56 /* DongHua.plist in Resources */,
-				185D314B1BAA5071009DBF56 /* FuWenBen.plist in Resources */,
 				186B5FD41BA6790A002B2222 /* Main.storyboard in Resources */,
-				1844B4B91BABB0C600AEE32E /* CeShiYuTiaoShi.plist in Resources */,
-				1844B4CD1BABBB5400AEE32E /* swift.plist in Resources */,
-				1844B4B51BABAF2800AEE32E /* BanBenXinAPIDeDemo.plist in Resources */,
-				1844B4B71BABAFFC00AEE32E /* DaiMaAnQuanYuMiMa.plist in Resources */,
-				1844B4CF1BABBC0A00AEE32E /* TaRenKaiYuanZongJie.plist in Resources */,
-				1844B4CB1BABBA1300AEE32E /* KaiFaZiLiao.plist in Resources */,
-				1844B4BF1BABB39100AEE32E /* WanZhengXiangMu.plist in Resources */,
 				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
-				185D31511BAA5713009DBF56 /* YinCangYuXianShi.plist in Resources */,
-				1844B4A71BABA8AD00AEE32E /* PDF.plist in Resources */,
-				1844B4A11BABA35000AEE32E /* QiTa.plist in Resources */,
-				185D314D1BAA534A009DBF56 /* TuBiao.plist in Resources */,
-				1844B49B1BABA10900AEE32E /* WangLuoCeShi.plist in Resources */,
-				1844B4A51BABA82B00AEE32E /* HuanChunChuLi.plist in Resources */,
-				185D315F1BAA6402009DBF56 /* QiTaDongHua.plist in Resources */,
-				185D31531BAA57AF009DBF56 /* HUDYuToast.plist in Resources */,
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
-				1844B4BB1BABB23300AEE32E /* AppleWatch.plist in Resources */,
-				1844B4B11BABAE4600AEE32E /* XiaoXiTuiSongFuWuDuan.plist in Resources */,
 				18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */,
-				18D167B31BA9878A006F34E9 /* XiaLaShuaXin.plist in Resources */,
-				1844B4AD1BABAD3200AEE32E /* XiangYingShiKuangJia.plist in Resources */,
-				1844B4C71BABB91000AEE32E /* MeiGongZiYuan.plist in Resources */,
-				1844B4991BAB9FF400AEE32E /* WangLuoLiaoTian.plist in Resources */,
-				1844B49F1BABA1F800AEE32E /* Model.plist in Resources */,
-				1844B4A31BABA6F800AEE32E /* ShuJuKu.plist in Resources */,
-				185D315D1BAA6322009DBF56 /* GifDongHua.plist in Resources */,
-				18D167B71BA9883E006F34E9 /* AutoLayout.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +648,7 @@
 			files = (
 				186B60D61BA6C4BD002B2222 /* Toast+UIView.m in Sources */,
 				186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */,
+				1844B4D21BAC00F600AEE32E /* iOSBlogWebViewViewController.m in Sources */,
 				186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */,
 				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
 				18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */,
