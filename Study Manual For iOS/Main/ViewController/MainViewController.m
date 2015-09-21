@@ -11,6 +11,7 @@
 #import "iOSBlogTableViewController.h"
 #import "DetailMainTableViewControlelr.h"
 #import "FDFeedViewController.h"
+#import "iOSWeinXinTableViewController.h"
 
 @interface MainViewController ()
 
@@ -83,6 +84,9 @@
     switch ([indexPath row]) {
         case 0:
         {
+            iOSWeinXinTableViewController * iOSweinXinTableViewController = [[iOSWeinXinTableViewController alloc]init];
+                                                                             
+        [self.navigationController pushViewController:iOSweinXinTableViewController animated:YES];
             self.tag =0;
         }
             break;

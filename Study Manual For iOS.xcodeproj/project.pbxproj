@@ -34,6 +34,7 @@
 		18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643A81BAA9BD100176345 /* FDFeedEntity.m */; };
 		18A643AD1BAA9BE000176345 /* FDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643AC1BAA9BE000176345 /* FDFeedViewController.m */; };
 		18A644471BAABD0C00176345 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644461BAABD0C00176345 /* data.json */; };
+		18C6BE691BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */; };
 		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
 		18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
@@ -97,6 +98,8 @@
 		18A643AB1BAA9BE000176345 /* FDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedViewController.h; path = Main/ViewController/FDFeedViewController.h; sourceTree = "<group>"; };
 		18A643AC1BAA9BE000176345 /* FDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedViewController.m; path = Main/ViewController/FDFeedViewController.m; sourceTree = "<group>"; };
 		18A644461BAABD0C00176345 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Main/ViewController/data.json; sourceTree = "<group>"; };
+		18C6BE671BAD52DC00BD1CCF /* iOSWeinXinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSWeinXinTableViewController.h; sourceTree = "<group>"; };
+		18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSWeinXinTableViewController.m; sourceTree = "<group>"; };
 		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
 		18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMainTableViewControlelr.h; path = Main/ViewController/DetailMainTableViewControlelr.h; sourceTree = "<group>"; };
 		18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMainTableViewControlelr.m; path = Main/ViewController/DetailMainTableViewControlelr.m; sourceTree = "<group>"; };
@@ -472,6 +475,8 @@
 		18D167841BA8FD17006F34E9 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18C6BE671BAD52DC00BD1CCF /* iOSWeinXinTableViewController.h */,
+				18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -658,6 +663,7 @@
 				18A643A91BAA9BD100176345 /* FDFeedCell.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
+				18C6BE691BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,
 				186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */,
 				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
@@ -721,7 +727,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -743,6 +750,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -764,7 +772,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -779,6 +788,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -789,12 +799,14 @@
 			baseConfigurationReference = D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Study Manual For iOS/PrefixHeader.pch";
 				INFOPLIST_FILE = "Study Manual For iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Debug;
 		};
@@ -803,12 +815,14 @@
 			baseConfigurationReference = 3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Study Manual For iOS/PrefixHeader.pch";
 				INFOPLIST_FILE = "Study Manual For iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Release;
 		};

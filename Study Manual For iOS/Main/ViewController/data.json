@@ -103,7 +103,7 @@
                      {
                      "Dname" : "ColorSense-for-Xcode",
                      "Durl" : "https:\/\/github.com\/omz\/ColorSense-for-Xcode",
-                     "Dtext" : " 颜色插件，安装之后，就不用根据RGB选择颜色，直接从取色板中取颜色，会自动补齐RGB代码。"
+                     "Dtext" : "颜色插件，安装之后，就不用根据RGB选择颜色，直接从取色板中取颜色，会自动补齐RGB代码。"
                      },
                      {
                      "Dname" : "10款提高iOS开发效率的XCode插件",
@@ -123,7 +123,7 @@
                      {
                      "Dname" : "CoPilot",
                      "Durl" : "https:\/\/vimeo.com\/128713880",
-                     "Dtext" : "通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。  "
+                     "Dtext" : "通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。  "
                      },
                      {
                      "Dname" : "ESJsonFormat-Xcode",
@@ -156,7 +156,7 @@
                      {
                      "Dname" : "MJRefresh",
                      "Durl" : "https:\/\/github.com\/CoderMJLee\/MJRefresh",
-                     "Dtext" : "仅需一行代码就可以为UITableView或者CollectionView加上下拉刷新或者上拉刷新功能。可以自定义上下拉刷新的文字说明。具体使用看“使用方法”。 （国人写）"
+                     "Dtext" : "仅需一行代码就可以为UITableView或者CollectionView加上下拉刷新或者上拉刷新功能。可以自定义上下拉刷新的文字说明。具体使用看“使用方法”。（国人写）"
                      },
                      {
                      "Dname" : "XHRefreshControl",
@@ -289,7 +289,7 @@
                   {
                   "Dname" : "Snap",
                   "Durl" : "https:\/\/github.com\/Masonry\/Snap",
-                  "Dtext" : "Snap是Masonry Auto Layout DSL的Swift版本，是一款轻量级的布局框架，使用了更良好的语法封装了AutoLayout。Snap支持iOS和OS X。"
+                  "Dtext" : "Snap 是 Masonry Auto Layout DSL 的 Swift 版本，是一款轻量级的布局框架，使用了更良好的语法封装了AutoLayout。Snap支持iOS和OS X。"
                   },
                   {
                   "Dname" : "SnapKit",
@@ -348,17 +348,17 @@
                 {
                 "Dname" : "MLEmojiLabel",
                 "Durl" : "https:\/\/github.com\/molon\/MLEmojiLabel",
-                "Dtext" : "自动识别网址、号码、邮箱、@、#话题#和表情的label。可以自定义自己的表情识别正则，和对应的表情图像。(默认是识别微信的表情符号)，继承自TTTAttributedLabel，所以可以像label一样使用。label的特性全都有，使用起来更友好更方便。"
+                "Dtext" : "自动识别网址、号码、邮箱、@、#话题#和表情的label。可以自定义自己的表情识别正则，和对应的表情图像。(默认是识别微信的表情符号)，继承自 TTTAttributedLabel，所以可以像 label一样使用。label 的特性全都有，使用起来更友好更方便。"
                 },
                 {
                 "Dname" : "FXLabel",
                 "Durl" : "https:\/\/github.com\/nicklockwood\/FXLabel",
-                "Dtext" : "FXLabel是一个功能强大使用简单的类库，通过提供一个子类改进了标准的UILabel组件，为字体增加了阴影、内阴影和渐变色等，可以被用在任何标准的UILabel中。FXLabel还提供了更多控件，可以对字体行距、字体间距等进行调整。"
+                "Dtext" : "FXLabel 是一个功能强大使用简单的类库，通过提供一个子类改进了标准的UILabel组件，为字体增加了阴影、内阴影和渐变色等，可以被用在任何标准的 UILabel 中。FXLabel 还提供了更多控件，可以对字体行距、字体间距等进行调整。"
                 },
                 {
                 "Dname" : "WFReader",
                 "Durl" : "https:\/\/github.com\/TigerWf\/WFReader",
-                "Dtext" : "一款简单的coretext阅读器，支持文本选择、高亮以及字体大小选择等。"
+                "Dtext" : "一款简单的 coretext 阅读器，支持文本选择、高亮以及字体大小选择等。"
                 },
                 {
                 "Dname" : "WPAttributedMarkup",
@@ -373,7 +373,7 @@
                 {
                 "Dname" : "HHFlashSwitch",
                 "Durl" : "https:\/\/github.com\/mrchenhao\/HHFlashSwitch",
-                "Dtext" : "一个另类的UISwitch，选择后，背景水波扩散变色效果。 "
+                "Dtext" : "一个另类的 UISwitch，选择后，背景水波扩散变色效果。 "
                 },
                 {
                 "Dname" : "UUColorSwitch",
@@ -383,12 +383,12 @@
                 {
                 "Dname" : "Shimmer",
                 "Durl" : "https:\/\/github.com\/facebook\/Shimmer",
-                "Dtext" : "BlingBling闪光效果，酷炫的Label的效果，可以用于加载等待提示。"
+                "Dtext" : "BlingBling 闪光效果，酷炫的Label的效果，可以用于加载等待提示。"
                 },
                 {
                 "Dname" : "ZSSRichTextEditor",
                 "Durl" : "https:\/\/github.com\/nnhubbard\/ZSSRichTextEditor",
-                "Dtext" : "适用于iOS的富文本WYSIWYG编辑器，支持语法高亮和源码查看。ZSSRichTextEditor包含所有WYSIWYG标准的编辑器工具。"
+                "Dtext" : "适用于 iOS 的富文本 WYSIWYG 编辑器，支持语法高亮和源码查看。ZSSRichTextEditor 包含所有 WYSIWYG 标准的编辑器工具。"
                 },
                 {
                 "Dname" : "RichEditorView",
@@ -1187,7 +1187,7 @@
                 {
                 "Dname" : "MMDrawerController",
                 "Durl" : "https:\/\/github.com\/mutualmobile\/MMDrawerController",
-                "Dtext" : " 最多人用的一个有关侧边“抽屉”导航框架，里面还有很多你意想不到的交互效果，侧滑。 "
+                "Dtext" : "最多人用的一个有关侧边“抽屉”导航框架，里面还有很多你意想不到的交互效果，侧滑。 "
                 },
                 {
                 "Dname" : "UIWebView翻页返回效果",
@@ -1243,7 +1243,7 @@
                    {
                    "Dname" : "SequenRotateAnimation",
                    "Durl" : "https:\/\/github.com\/pingguo-zangqilong\/SequenRotateAnimation",
-                   "Dtext" : " 一个简单的 loading 次序动画。 "
+                   "Dtext" : "一个简单的 loading 次序动画。 "
                    },
                    {
                    "Dname" : "SYAppStart",
@@ -1258,7 +1258,7 @@
                    {
                    "Dname" : "如何根据设备选择不同尺寸的图片]",
                    "Durl" : "http:\/\/www.imooc.com\/wenda\/detail\/249271",
-                   "Dtext" : " 可以通过设置不同尺寸设备的 LaunchImage，来使得 App 适配这些设备，要是在不同不同尺寸设备上使用不同大小的图片，则需要在代码中一一判断，然后加载。 "
+                   "Dtext" : "可以通过设置不同尺寸设备的 LaunchImage，来使得 App 适配这些设备，要是在不同不同尺寸设备上使用不同大小的图片，则需要在代码中一一判断，然后加载。 "
                    },
                    {
                    "Dname" : "RMParallax",
@@ -1698,7 +1698,7 @@
               {
               "Dname" : "JSONModel",
               "Durl" : "https:\/\/github.com\/icanzilb\/JSONModel",
-              "Dtext" : " 解析服务器返回的 Json 数据的库"
+              "Dtext" : "解析服务器返回的 Json 数据的库"
               },
               {
               "Dname" : "JSONModel源码解析",
@@ -2561,7 +2561,7 @@
                           {
                           "Dname" : "Homeoff",
                           "Durl" : "https:\/\/github.com\/lizyyy\/Homeoff",
-                          "Dtext" : " 用 swift 写了一个模仿 Launcher 通知中心快捷方式的应用。支持20个应用，并增加了一个返回到桌面来解放 Home 键的功能。 "
+                          "Dtext" : "用 swift 写了一个模仿 Launcher 通知中心快捷方式的应用。支持20个应用，并增加了一个返回到桌面来解放 Home 键的功能。 "
                           },
                           {
                           "Dname" : "JDStatusBarNotification",
@@ -2868,7 +2868,7 @@
                         {
                         "Dname" : "chuanke",
                         "Durl" : "https:\/\/github.com\/lookingstars\/chuanke",
-                        "Dtext" : " 高仿百度传课 iOS 版。 "
+                        "Dtext" : "高仿百度传课 iOS 版。 "
                         },
                         {
                         "Dname" : "Tuan",
@@ -3113,7 +3113,7 @@
              {
              "Dname" : "awesome-ios",
              "Durl" : "https:\/\/github.com\/vsouza\/awesome-ios",
-             "Dtext" : " 一个老外整理的。"
+             "Dtext" : "一个老外整理的。"
              },
              {
              "Dname" : "awesome-ios-ui",
