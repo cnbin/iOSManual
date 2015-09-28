@@ -21,7 +21,7 @@
     self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
     
     self.webView = [[WKWebView alloc]init];
-    self.webView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) ;
+    self.webView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     [self.view addSubview:self.webView];
     
     [self ReachabilityTest];
@@ -41,10 +41,10 @@
     
 }
 
-- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {
     
    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-   
+    
 }
 
 - (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation {

@@ -3,6 +3,12 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>url</key>
+		<string>http://cnbin.github.io</string>
+		<key>name</key>
+		<string>陈斌彬的技术博客</string>
+	</dict>
+	<dict>
 		<key>name</key>
 		<string>OneV&apos;s Den</string>
 		<key>url</key>

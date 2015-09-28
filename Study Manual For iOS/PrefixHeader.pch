@@ -7,8 +7,6 @@
 //
 
 #import <Availability.h>
-
-#ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
@@ -16,4 +14,3 @@
 #import "Util/Toast/Toast+UIView.h"
 #import "Util/WebKit/Reachability.h"
 #import "iOSOpenSourceWebKitViewController.h"
-#endif

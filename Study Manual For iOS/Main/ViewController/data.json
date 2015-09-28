@@ -28,7 +28,7 @@
                      {
                      "Dname" : "VVDocumenter-Xcode",
                      "Durl" : "https:\/\/github.com\/onevcat\/VVDocumenter-Xcode",
-                     "Dtext" : " 一个Xcode插件，build后，随手打开一个你之前的项目，然后在任意一个方法上面连按三下\"\/\"键盘，就ok了。"
+                     "Dtext" : "一个Xcode插件，build后，随手打开一个你之前的项目，然后在任意一个方法上面连按三下\"\/\"键盘，就ok了。"
                      },
                      {
                      "Dname" : "Reveal-Plugin-for-XCode",
@@ -2537,11 +2537,6 @@
     
     "XiaoXiTuiSongFuWuDuan" : [
                                {
-                               "Dname" : "javapns源代码",
-                               "Durl" : "https:\/\/code.google.com\/p\/javapns\/downloads\/list",
-                               "Dtext" : "消息推送的java服务端代码，注意：DeviceToken中间不能有空格。 "
-                               },
-                               {
                                "Dname" : "pushMeBaby",
                                "Durl" : "https:\/\/github.com\/stefanhafeneger\/PushMeBaby",
                                "Dtext" : "Mac端消息推送端代码，注意：DeviceToken中间要有空格。"
@@ -3187,11 +3182,6 @@
                        "Dname" : "UIViewController-Swizzled",
                        "Durl" : "https:\/\/github.com\/RuiAAPeres\/UIViewController-Swizzled",
                        "Dtext" : "把你进入的每一个 controller 的类名打出来,如果看一些特别复杂的项目的时候直接运行 demo 就可以知道执行次序了。 "
-                       },
-                       {
-                       "Dname" : "snoop-it",
-                       "Durl" : "https:\/\/code.google.com\/p\/snoop-it\/",
-                       "Dtext" : "snoop-it 比 UIViewController-Swizzled 好用，代码托管在 google 上。"
                        },
                        {
                        "Dname" : "Versions",

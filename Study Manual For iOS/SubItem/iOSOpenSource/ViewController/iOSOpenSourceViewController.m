@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"top1000";
+    self.title = @"快速查询";
     
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *plistPath = [bundle pathForResource:@"iOSOpenSourcePlist"
@@ -46,7 +46,6 @@
                                                        self.searchController.searchBar.frame.size.width, 44.0);
     
     self.tableView.tableHeaderView = self.searchController.searchBar;
-    
 
 }
 
@@ -66,8 +65,7 @@
 #pragma mark - UISearchControllerDelegate & UISearchResultsDelegate
 
 // Called when the search bar becomes first responder
-- (void)updateSearchResultsForSearchController:(UISearchController *)searchController
-{
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController {
     // Set searchString equal to what's typed into the searchbar
     NSString *searchString = self.searchController.searchBar.text;
     
@@ -89,10 +87,8 @@
     }
 }
 
-
 // Update self.searchResults based on searchString, which is the argument in passed to this method
-- (void)updateFilteredContentForAirlineName:(NSString *)airlineName
-{
+- (void)updateFilteredContentForAirlineName:(NSString *)airlineName {
     if (airlineName == nil) {
         
         // If empty the search results are the same as the original data
@@ -135,9 +131,7 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-
-{
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     NSDictionary *rowDict = [self.dataList objectAtIndex:indexPath.row];
    [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"url"];
@@ -151,13 +145,12 @@
 
 }
 
- #pragma mark - Navigation
+#pragma mark - Navigation
  
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

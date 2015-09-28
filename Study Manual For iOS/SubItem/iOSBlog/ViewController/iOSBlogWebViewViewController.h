@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSBlogWebViewViewController :  UIViewController<WKNavigationDelegate,WKUIDelegate>
+@interface iOSBlogWebViewViewController : UIViewController<WKNavigationDelegate,WKUIDelegate>
 
 @property (nonatomic,strong) WKWebView * webView;
 

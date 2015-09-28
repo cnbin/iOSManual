@@ -11,6 +11,6 @@
 @interface FDFeedViewController : UITableViewController
 
 @property (nonatomic, strong) NSArray *feedDicts;
-
 @property (nonatomic, strong) NSString * feedTitle;
+
 @end

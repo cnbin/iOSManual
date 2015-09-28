@@ -15,8 +15,6 @@
 		186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B5FD71BA6790A002B2222 /* LaunchScreen.xib */; };
 		186B5FE51BA6790A002B2222 /* Study_Manual_For_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B5FE41BA6790A002B2222 /* Study_Manual_For_iOSTests.m */; };
 		186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B5FF71BA67DCC002B2222 /* MainViewController.m */; };
-		186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B5FFA1BA67DFE002B2222 /* SettingViewController.m */; };
-		186B600D1BA697A6002B2222 /* GitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B600C1BA697A6002B2222 /* GitViewController.m */; };
 		186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60121BA697FD002B2222 /* iOSOpenSourceViewController.m */; };
 		186B60151BA6A0A7002B2222 /* iOSOpenSourcePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60141BA6A0A7002B2222 /* iOSOpenSourcePlist.plist */; };
 		186B608D1BA6B219002B2222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186B608C1BA6B218002B2222 /* UIKit.framework */; };
@@ -30,12 +28,11 @@
 		186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */; };
 		186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */; };
 		186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */; };
+		1892BBCB1BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892BBCA1BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18A643A91BAA9BD100176345 /* FDFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643A61BAA9BD100176345 /* FDFeedCell.m */; };
 		18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643A81BAA9BD100176345 /* FDFeedEntity.m */; };
 		18A643AD1BAA9BE000176345 /* FDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A643AC1BAA9BE000176345 /* FDFeedViewController.m */; };
 		18A644471BAABD0C00176345 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644461BAABD0C00176345 /* data.json */; };
-		18C6BE691BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */; };
-		18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */; };
 		18D167B11BA981F4006F34E9 /* DetailMainTableViewControlelr.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */; };
 		6E849398A0021D3DAFB53424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2D89DD646F454E642B564A /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -53,7 +50,7 @@
 /* Begin PBXFileReference section */
 		1844B4D01BAC00F600AEE32E /* iOSBlogWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogWebViewViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogWebViewViewController.h; sourceTree = "<group>"; };
 		1844B4D11BAC00F600AEE32E /* iOSBlogWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogWebViewViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogWebViewViewController.m; sourceTree = "<group>"; };
-		186B5FC51BA6790A002B2222 /* Study Manual For iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study Manual For iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186B5FC51BA6790A002B2222 /* OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186B5FC91BA6790A002B2222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186B5FCA1BA6790A002B2222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		186B5FCC1BA6790A002B2222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,16 +58,12 @@
 		186B5FD31BA6790A002B2222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186B5FD51BA6790A002B2222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		186B5FD81BA6790A002B2222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		186B5FDE1BA6790A002B2222 /* Study Manual For iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study Manual For iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186B5FDE1BA6790A002B2222 /* OC.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186B5FE31BA6790A002B2222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186B5FE41BA6790A002B2222 /* Study_Manual_For_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study_Manual_For_iOSTests.m; sourceTree = "<group>"; };
 		186B5FF61BA67DCC002B2222 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Main/ViewController/MainViewController.h; sourceTree = "<group>"; };
 		186B5FF71BA67DCC002B2222 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Main/ViewController/MainViewController.m; sourceTree = "<group>"; };
-		186B5FF91BA67DFE002B2222 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Setting/ViewController/SettingViewController.h; sourceTree = "<group>"; };
-		186B5FFA1BA67DFE002B2222 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Setting/ViewController/SettingViewController.m; sourceTree = "<group>"; };
 		186B5FFC1BA6822A002B2222 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		186B600B1BA697A6002B2222 /* GitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GitViewController.h; path = SubItem/Git/ViewController/GitViewController.h; sourceTree = "<group>"; };
-		186B600C1BA697A6002B2222 /* GitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GitViewController.m; path = SubItem/Git/ViewController/GitViewController.m; sourceTree = "<group>"; };
 		186B60111BA697FD002B2222 /* iOSOpenSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSOpenSourceViewController.h; path = SubItem/iOSOpenSource/ViewController/iOSOpenSourceViewController.h; sourceTree = "<group>"; };
 		186B60121BA697FD002B2222 /* iOSOpenSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSOpenSourceViewController.m; path = SubItem/iOSOpenSource/ViewController/iOSOpenSourceViewController.m; sourceTree = "<group>"; };
 		186B60141BA6A0A7002B2222 /* iOSOpenSourcePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSOpenSourcePlist.plist; path = SubItem/iOSOpenSource/iOSOpenSourcePlist.plist; sourceTree = "<group>"; };
@@ -91,6 +84,8 @@
 		186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSBlogPlist.plist; path = SubItem/iOSBlog/ViewController/iOSBlogPlist.plist; sourceTree = "<group>"; };
 		186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsTableViewController.h; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.h; sourceTree = "<group>"; };
 		186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsTableViewController.m; path = SubItem/iOSOpenSource/ViewController/SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		1892BBC91BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBlogSearchResultsTableViewController.h; path = SubItem/iOSBlog/ViewController/iOSBlogSearchResultsTableViewController.h; sourceTree = "<group>"; };
+		1892BBCA1BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSBlogSearchResultsTableViewController.m; path = SubItem/iOSBlog/ViewController/iOSBlogSearchResultsTableViewController.m; sourceTree = "<group>"; };
 		18A643A51BAA9BD100176345 /* FDFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedCell.h; path = Main/Model/FDFeedCell.h; sourceTree = "<group>"; };
 		18A643A61BAA9BD100176345 /* FDFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedCell.m; path = Main/Model/FDFeedCell.m; sourceTree = "<group>"; };
 		18A643A71BAA9BD100176345 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedEntity.h; path = Main/Model/FDFeedEntity.h; sourceTree = "<group>"; };
@@ -98,9 +93,6 @@
 		18A643AB1BAA9BE000176345 /* FDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDFeedViewController.h; path = Main/ViewController/FDFeedViewController.h; sourceTree = "<group>"; };
 		18A643AC1BAA9BE000176345 /* FDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDFeedViewController.m; path = Main/ViewController/FDFeedViewController.m; sourceTree = "<group>"; };
 		18A644461BAABD0C00176345 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Main/ViewController/data.json; sourceTree = "<group>"; };
-		18C6BE671BAD52DC00BD1CCF /* iOSWeinXinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSWeinXinTableViewController.h; sourceTree = "<group>"; };
-		18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSWeinXinTableViewController.m; sourceTree = "<group>"; };
-		18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = iOSWeiXinPlist.plist; path = SubItem/iOSWeiXin/iOSWeiXinPlist.plist; sourceTree = "<group>"; };
 		18D167AF1BA981F4006F34E9 /* DetailMainTableViewControlelr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMainTableViewControlelr.h; path = Main/ViewController/DetailMainTableViewControlelr.h; sourceTree = "<group>"; };
 		18D167B01BA981F4006F34E9 /* DetailMainTableViewControlelr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMainTableViewControlelr.m; path = Main/ViewController/DetailMainTableViewControlelr.m; sourceTree = "<group>"; };
 		3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,8 +137,8 @@
 		186B5FC61BA6790A002B2222 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				186B5FC51BA6790A002B2222 /* Study Manual For iOS.app */,
-				186B5FDE1BA6790A002B2222 /* Study Manual For iOSTests.xctest */,
+				186B5FC51BA6790A002B2222 /* OC.app */,
+				186B5FDE1BA6790A002B2222 /* OC.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +149,6 @@
 				186B60CD1BA6BFBF002B2222 /* Util */,
 				186B608B1BA6B1FB002B2222 /* Frameworks */,
 				186B5FFD1BA68859002B2222 /* SubItem */,
-				186B5FEF1BA67D29002B2222 /* Setting */,
 				186B5FEE1BA67D1B002B2222 /* Main */,
 				186B5FCC1BA6790A002B2222 /* AppDelegate.h */,
 				186B5FCD1BA6790A002B2222 /* AppDelegate.m */,
@@ -201,26 +192,8 @@
 			children = (
 				186B5FF21BA67D3F002B2222 /* ViewController */,
 				186B5FF11BA67D39002B2222 /* Model */,
-				186B5FF01BA67D35002B2222 /* View */,
 			);
 			name = Main;
-			sourceTree = "<group>";
-		};
-		186B5FEF1BA67D29002B2222 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				186B5FF51BA67D4F002B2222 /* ViewController */,
-				186B5FF41BA67D4A002B2222 /* Model */,
-				186B5FF31BA67D46002B2222 /* View */,
-			);
-			name = Setting;
-			sourceTree = "<group>";
-		};
-		186B5FF01BA67D35002B2222 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		186B5FF11BA67D39002B2222 /* Model */ = {
@@ -238,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				18A644461BAABD0C00176345 /* data.json */,
+				186B60C81BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.h */,
+				186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */,
 				18A643AB1BAA9BE000176345 /* FDFeedViewController.h */,
 				18A643AC1BAA9BE000176345 /* FDFeedViewController.m */,
 				186B5FF61BA67DCC002B2222 /* MainViewController.h */,
@@ -248,135 +223,21 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
-		186B5FF31BA67D46002B2222 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		186B5FF41BA67D4A002B2222 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		186B5FF51BA67D4F002B2222 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				186B5FF91BA67DFE002B2222 /* SettingViewController.h */,
-				186B5FFA1BA67DFE002B2222 /* SettingViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
 		186B5FFD1BA68859002B2222 /* SubItem */ = {
 			isa = PBXGroup;
 			children = (
-				18D167831BA8FD0B006F34E9 /* iOSWeiXin */,
 				186B60E01BA6DD1C002B2222 /* iOSBlog */,
-				186B60041BA688DB002B2222 /* iOSInterview */,
 				186B60031BA688AA002B2222 /* iOSOpenSource */,
-				186B60021BA688A1002B2222 /* Xcode */,
-				186B60011BA6889C002B2222 /* Git */,
-				186B60001BA68895002B2222 /* Linux */,
-				186B5FFF1BA6888D002B2222 /* Mac */,
-				186B5FFE1BA68872002B2222 /* Objc */,
 			);
 			name = SubItem;
-			sourceTree = "<group>";
-		};
-		186B5FFE1BA68872002B2222 /* Objc */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Objc;
-			sourceTree = "<group>";
-		};
-		186B5FFF1BA6888D002B2222 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
-		186B60001BA68895002B2222 /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Linux;
-			sourceTree = "<group>";
-		};
-		186B60011BA6889C002B2222 /* Git */ = {
-			isa = PBXGroup;
-			children = (
-				186B60071BA69743002B2222 /* ViewController */,
-				186B60061BA6973D002B2222 /* View */,
-				186B60051BA69737002B2222 /* Model */,
-			);
-			name = Git;
-			sourceTree = "<group>";
-		};
-		186B60021BA688A1002B2222 /* Xcode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Xcode;
 			sourceTree = "<group>";
 		};
 		186B60031BA688AA002B2222 /* iOSOpenSource */ = {
 			isa = PBXGroup;
 			children = (
 				186B60101BA697C5002B2222 /* ViewController */,
-				186B600F1BA697C1002B2222 /* View */,
-				186B600E1BA697BA002B2222 /* Model */,
 			);
 			name = iOSOpenSource;
-			sourceTree = "<group>";
-		};
-		186B60041BA688DB002B2222 /* iOSInterview */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iOSInterview;
-			sourceTree = "<group>";
-		};
-		186B60051BA69737002B2222 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		186B60061BA6973D002B2222 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		186B60071BA69743002B2222 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				186B600B1BA697A6002B2222 /* GitViewController.h */,
-				186B600C1BA697A6002B2222 /* GitViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		186B600E1BA697BA002B2222 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		186B600F1BA697C1002B2222 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		186B60101BA697C5002B2222 /* ViewController */ = {
@@ -386,8 +247,6 @@
 				186B60121BA697FD002B2222 /* iOSOpenSourceViewController.m */,
 				186B60F01BA7C17A002B2222 /* SearchResultsTableViewController.h */,
 				186B60F11BA7C17A002B2222 /* SearchResultsTableViewController.m */,
-				186B60C81BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.h */,
-				186B60C91BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m */,
 				186B60141BA6A0A7002B2222 /* iOSOpenSourcePlist.plist */,
 			);
 			name = ViewController;
@@ -454,45 +313,13 @@
 			children = (
 				186B60E51BA6DD96002B2222 /* iOSBlogTableViewController.h */,
 				186B60E61BA6DD96002B2222 /* iOSBlogTableViewController.m */,
-				186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */,
+				1892BBC91BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.h */,
+				1892BBCA1BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.m */,
 				1844B4D01BAC00F600AEE32E /* iOSBlogWebViewViewController.h */,
 				1844B4D11BAC00F600AEE32E /* iOSBlogWebViewViewController.m */,
+				186B60E81BA6DE6E002B2222 /* iOSBlogPlist.plist */,
 			);
 			name = ViewController;
-			sourceTree = "<group>";
-		};
-		18D167831BA8FD0B006F34E9 /* iOSWeiXin */ = {
-			isa = PBXGroup;
-			children = (
-				18D167861BA8FD21006F34E9 /* Model */,
-				18D167851BA8FD1D006F34E9 /* View */,
-				18D167841BA8FD17006F34E9 /* ViewController */,
-				18D167871BA8FD5C006F34E9 /* iOSWeiXinPlist.plist */,
-			);
-			name = iOSWeiXin;
-			sourceTree = "<group>";
-		};
-		18D167841BA8FD17006F34E9 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				18C6BE671BAD52DC00BD1CCF /* iOSWeinXinTableViewController.h */,
-				18C6BE681BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		18D167851BA8FD1D006F34E9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		18D167861BA8FD21006F34E9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		51022337D5DADBDA00FF341E /* Pods */ = {
@@ -515,9 +342,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		186B5FC41BA6790A002B2222 /* Study Manual For iOS */ = {
+		186B5FC41BA6790A002B2222 /* OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186B5FE81BA6790A002B2222 /* Build configuration list for PBXNativeTarget "Study Manual For iOS" */;
+			buildConfigurationList = 186B5FE81BA6790A002B2222 /* Build configuration list for PBXNativeTarget "OC" */;
 			buildPhases = (
 				69F7888E01E119FF4EB396CF /* Check Pods Manifest.lock */,
 				186B5FC11BA6790A002B2222 /* Sources */,
@@ -529,14 +356,14 @@
 			);
 			dependencies = (
 			);
-			name = "Study Manual For iOS";
+			name = OC;
 			productName = "Study Manual For iOS";
-			productReference = 186B5FC51BA6790A002B2222 /* Study Manual For iOS.app */;
+			productReference = 186B5FC51BA6790A002B2222 /* OC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		186B5FDD1BA6790A002B2222 /* Study Manual For iOSTests */ = {
+		186B5FDD1BA6790A002B2222 /* OCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186B5FEB1BA6790A002B2222 /* Build configuration list for PBXNativeTarget "Study Manual For iOSTests" */;
+			buildConfigurationList = 186B5FEB1BA6790A002B2222 /* Build configuration list for PBXNativeTarget "OCTests" */;
 			buildPhases = (
 				186B5FDA1BA6790A002B2222 /* Sources */,
 				186B5FDB1BA6790A002B2222 /* Frameworks */,
@@ -547,9 +374,9 @@
 			dependencies = (
 				186B5FE01BA6790A002B2222 /* PBXTargetDependency */,
 			);
-			name = "Study Manual For iOSTests";
+			name = OCTests;
 			productName = "Study Manual For iOSTests";
-			productReference = 186B5FDE1BA6790A002B2222 /* Study Manual For iOSTests.xctest */;
+			productReference = 186B5FDE1BA6790A002B2222 /* OC.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -570,7 +397,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 186B5FC01BA6790A002B2222 /* Build configuration list for PBXProject "Study Manual For iOS" */;
+			buildConfigurationList = 186B5FC01BA6790A002B2222 /* Build configuration list for PBXProject "OC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -583,8 +410,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				186B5FC41BA6790A002B2222 /* Study Manual For iOS */,
-				186B5FDD1BA6790A002B2222 /* Study Manual For iOSTests */,
+				186B5FC41BA6790A002B2222 /* OC */,
+				186B5FDD1BA6790A002B2222 /* OCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -600,7 +427,6 @@
 				186B60E91BA6DE6E002B2222 /* iOSBlogPlist.plist in Resources */,
 				186B5FD91BA6790A002B2222 /* LaunchScreen.xib in Resources */,
 				186B5FD61BA6790A002B2222 /* Images.xcassets in Resources */,
-				18D167881BA8FD5C006F34E9 /* iOSWeiXinPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,9 +479,9 @@
 			files = (
 				186B60D61BA6C4BD002B2222 /* Toast+UIView.m in Sources */,
 				186B60E71BA6DD96002B2222 /* iOSBlogTableViewController.m in Sources */,
+				1892BBCB1BB8F1B6003CAC4C /* iOSBlogSearchResultsTableViewController.m in Sources */,
 				1844B4D21BAC00F600AEE32E /* iOSBlogWebViewViewController.m in Sources */,
 				186B5FCE1BA6790A002B2222 /* AppDelegate.m in Sources */,
-				186B600D1BA697A6002B2222 /* GitViewController.m in Sources */,
 				18A643AA1BAA9BD100176345 /* FDFeedEntity.m in Sources */,
 				186B5FF81BA67DCC002B2222 /* MainViewController.m in Sources */,
 				186B60D91BA6C4C8002B2222 /* Reachability.m in Sources */,
@@ -663,12 +489,10 @@
 				18A643A91BAA9BD100176345 /* FDFeedCell.m in Sources */,
 				186B60131BA697FD002B2222 /* iOSOpenSourceViewController.m in Sources */,
 				186B60D11BA6C083002B2222 /* GlobalResource.m in Sources */,
-				18C6BE691BAD52DC00BD1CCF /* iOSWeinXinTableViewController.m in Sources */,
 				186B5FCB1BA6790A002B2222 /* main.m in Sources */,
 				186B60F21BA7C17A002B2222 /* SearchResultsTableViewController.m in Sources */,
 				186B60CA1BA6BBDA002B2222 /* iOSOpenSourceWebKitViewController.m in Sources */,
 				18A643AD1BAA9BE000176345 /* FDFeedViewController.m in Sources */,
-				186B5FFB1BA67DFE002B2222 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +509,7 @@
 /* Begin PBXTargetDependency section */
 		186B5FE01BA6790A002B2222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 186B5FC41BA6790A002B2222 /* Study Manual For iOS */;
+			target = 186B5FC41BA6790A002B2222 /* OC */;
 			targetProxy = 186B5FDF1BA6790A002B2222 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -731,13 +555,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					DEBUG,
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -776,7 +601,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -799,13 +624,15 @@
 			baseConfigurationReference = D6D90A8E4B819D52897187BD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Study Manual For iOS/PrefixHeader.pch";
 				INFOPLIST_FILE = "Study Manual For iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OC;
 				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Debug;
@@ -815,13 +642,15 @@
 			baseConfigurationReference = 3EBFE2CD783A2B0A559BC4F3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yongmin Wu (3VCT48C2N3)";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Study Manual For iOS/PrefixHeader.pch";
 				INFOPLIST_FILE = "Study Manual For iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OC;
 				PROVISIONING_PROFILE = "02ea2305-ad1e-4a36-827f-58a70fc056cb";
 			};
 			name = Release;
@@ -840,8 +669,8 @@
 				);
 				INFOPLIST_FILE = "Study Manual For iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Manual For iOS.app/Study Manual For iOS";
+				PRODUCT_NAME = OC;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC.app/OC";
 			};
 			name = Debug;
 		};
@@ -855,15 +684,15 @@
 				);
 				INFOPLIST_FILE = "Study Manual For iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Manual For iOS.app/Study Manual For iOS";
+				PRODUCT_NAME = OC;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC.app/OC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		186B5FC01BA6790A002B2222 /* Build configuration list for PBXProject "Study Manual For iOS" */ = {
+		186B5FC01BA6790A002B2222 /* Build configuration list for PBXProject "OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186B5FE61BA6790A002B2222 /* Debug */,
@@ -872,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186B5FE81BA6790A002B2222 /* Build configuration list for PBXNativeTarget "Study Manual For iOS" */ = {
+		186B5FE81BA6790A002B2222 /* Build configuration list for PBXNativeTarget "OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186B5FE91BA6790A002B2222 /* Debug */,
@@ -881,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186B5FEB1BA6790A002B2222 /* Build configuration list for PBXNativeTarget "Study Manual For iOSTests" */ = {
+		186B5FEB1BA6790A002B2222 /* Build configuration list for PBXNativeTarget "OCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186B5FEC1BA6790A002B2222 /* Debug */,

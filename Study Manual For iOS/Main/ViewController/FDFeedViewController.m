@@ -37,8 +37,6 @@
     
 }
 
-
-
 - (void)buildTestDataThen:(void (^)(void))then
 {
     // Simulate an async request
@@ -95,7 +93,6 @@
 {
 
     NSUInteger row = [indexPath row];
-    NSLog(@"[self.feedDicts objectAtIndex:row] is %@",[self.feedDicts objectAtIndex:row]);
     NSDictionary *rowDict = [self.feedDicts objectAtIndex:row];
     [GlobalResource sharedInstance].iOSOpenSourceURL = [rowDict objectForKey:@"Durl"];
     [GlobalResource sharedInstance].iOSOpenSourceURLName = [rowDict objectForKey:@"Dname"];
@@ -118,14 +115,6 @@
         }];
     }
 }
-
-//- (FDFeedEntity *)randomEntity
-//{
-//    NSUInteger randomNumber = arc4random_uniform((int32_t)self.prototypeEntitiesFromJSON.count);
-//    FDFeedEntity *randomEntity = self.prototypeEntitiesFromJSON[randomNumber];
-//    return randomEntity;
-//}
-
 
 - (IBAction)backButton:(id)sender {
     

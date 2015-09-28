@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = [GlobalResource sharedInstance].iOSOpenSourceURLName;
-    NSLog(@"aa");
     UIBarButtonItem *buttonImage = [[ UIBarButtonItem alloc ] initWithImage:
                                     [ UIImage imageNamed:@"nav_backbtn"]
                                                                       style: UIBarButtonItemStylePlain
@@ -41,21 +40,21 @@
     self.webView.navigationDelegate = self;
     
 }
--(void)navback:(UIButton *)button{
+
+-(void)navback:(UIButton *)button {
      [self dismissViewControllerAnimated:YES completion:nil];
 }
 
--(void)ReachabilityTest{
+-(void)ReachabilityTest {
     if (![Reachability networkAvailable]) {
         [self.view makeToast:@"当前网络不可用,请检查网络设置" duration:5.0 position:@"center"];
     }
     
 }
 
-- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    
 }
 
 - (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation {
@@ -65,10 +64,6 @@
             [MBProgressHUD hideHUDForView:self.view animated:YES];
         });
     });
-    
-}
-
-- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
     
 }
 

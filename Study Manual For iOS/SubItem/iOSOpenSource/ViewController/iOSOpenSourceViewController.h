@@ -11,10 +11,7 @@
 @interface iOSOpenSourceViewController : UITableViewController<UISearchResultsUpdating>
 
 @property (nonatomic, strong) NSArray *dataList;
-
 @property (nonatomic, strong) NSMutableArray *searchResults;
-//@property (nonatomic, strong) NSMutableArray *searchResultsURL;
-
 @property (nonatomic, strong) UISearchController *searchController;
 
 @end

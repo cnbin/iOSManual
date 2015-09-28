@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSBlogTableViewController : UITableViewController
+@interface iOSBlogTableViewController : UITableViewController<UISearchResultsUpdating>
 
-@property (nonatomic, strong) NSArray *listTeams;
+@property (nonatomic, strong) NSArray *dataList;
+@property (nonatomic, strong) NSMutableArray *searchResults;
+@property (nonatomic, strong) UISearchController *searchController;
 
 @end

@@ -58,13 +58,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    if (self.detailtag == 2) {
+    if (self.detailtag == 0) {
     
             [GlobalResource sharedInstance].jsonString = @"XcodeChaJian";
             _feedTitle = @"Xcode插件";
     }
     
-    if (self.detailtag == 3) {
+    if (self.detailtag == 1) {
         switch ([indexPath row]) {
             case 0:
             {
@@ -141,7 +141,7 @@
 
     }
     
-    if (self.detailtag == 4) {
+    if (self.detailtag == 2) {
         
         switch ([indexPath row]) {
             case 0:
@@ -175,7 +175,7 @@
     
         }
     }
-    if (self.detailtag == 5) {
+    if (self.detailtag == 3) {
         
         switch ([indexPath row]) {
             case 0:
@@ -216,50 +216,49 @@
                 
         }
     }
-
-    if (self.detailtag == 6) {
+    if (self.detailtag == 4) {
         
         [GlobalResource sharedInstance].jsonString = @"Model";
         _feedTitle = @"Model";
 
     }
     
-    if (self.detailtag == 7) {
+    if (self.detailtag == 5) {
          [GlobalResource sharedInstance].jsonString = @"QiTa";
         _feedTitle = @"其他";
 
     }
-    if (self.detailtag == 8) {
+    if (self.detailtag == 6) {
         [GlobalResource sharedInstance].jsonString = @"ShuJuKu";
         _feedTitle = @"数据库";
 
     }
-    if (self.detailtag == 9) {
+    if (self.detailtag == 7) {
         [GlobalResource sharedInstance].jsonString = @"HuanChunChuLi";
         _feedTitle = @"缓存处理";
 
     }
-    if (self.detailtag == 10) {
+    if (self.detailtag == 8) {
         [GlobalResource sharedInstance].jsonString = @"PDF";
         _feedTitle = @"PDF";
 
     }
-    if (self.detailtag == 11) {
+    if (self.detailtag == 9) {
         [GlobalResource sharedInstance].jsonString = @"TuXiangLiuLanJiChuLi";
         _feedTitle = @"图像浏览及处理";
 
     }
-    if (self.detailtag == 12) {
+    if (self.detailtag == 10) {
         [GlobalResource sharedInstance].jsonString = @"SheXiangPaiZhaoShiPinYinPinChuLi";
         _feedTitle = @"摄像拍照视频音频处理";
 
     }
-    if (self.detailtag == 13) {
+    if (self.detailtag == 11) {
         [GlobalResource sharedInstance].jsonString = @"XiangYingShiKuangJia";
         _feedTitle = @"响应式框架";
 
     }
-    if (self.detailtag == 14) {
+    if (self.detailtag == 12) {
         switch ([indexPath row]) {
                 
             case 0:
@@ -287,48 +286,47 @@
         }
 
     }
-    if (self.detailtag == 15) {
+    if (self.detailtag == 13) {
         [GlobalResource sharedInstance].jsonString = @"BanBenXinAPIDeDemo";
         _feedTitle = @"版本新API的Demo";
 
     }
-    if (self.detailtag == 16) {
+    if (self.detailtag == 14) {
         [GlobalResource sharedInstance].jsonString = @"DaiMaAnQuanYuMiMa";
         _feedTitle = @"代码安全与密码";
 
     }
-    if (self.detailtag == 17) {
+    if (self.detailtag == 15) {
         [GlobalResource sharedInstance].jsonString = @"CeShiYuTiaoShi";
         _feedTitle = @"测试与调试";
 
     }
-    if (self.detailtag == 18) {
+    if (self.detailtag == 16) {
         [GlobalResource sharedInstance].jsonString = @"AppleWatch";
         _feedTitle = @"AppleWatch";
 
     }
-    if (self.detailtag == 19) {
+    if (self.detailtag == 17) {
         [GlobalResource sharedInstance].jsonString = @"WanZhengXiangMu";
         _feedTitle = @"完整项目";
 
     }
-    if (self.detailtag == 20) {
+    if (self.detailtag == 18) {
         [GlobalResource sharedInstance].jsonString = @"HaoDeWenZhang";
         _feedTitle = @"好的文章";
 
     }
-    if (self.detailtag == 21) {
+    if (self.detailtag == 19) {
         [GlobalResource sharedInstance].jsonString = @"VPN";
         _feedTitle = @"VPN";
 
     }
-    if (self.detailtag == 22) {
+    if (self.detailtag == 20) {
         [GlobalResource sharedInstance].jsonString = @"MeiGongZiYuan";
         _feedTitle = @"美工资源";
 
     }
-    
-    if (self.detailtag == 23) {
+    if (self.detailtag == 21) {
         
         switch ([indexPath row]) {
                 
@@ -354,15 +352,9 @@
             }
                 break;
         }
-        
     }
     
-    if (self.detailtag != 0 || self.detailtag != 1) {
-        
-        [self performSegueWithIdentifier:@"feedSegue" sender:nil];
-
-    }
-    
+     [self performSegueWithIdentifier:@"feedSegue" sender:nil];
 }
 
 #pragma mark - Navigation

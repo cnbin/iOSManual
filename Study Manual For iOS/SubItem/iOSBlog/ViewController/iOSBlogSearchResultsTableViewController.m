@@ -1,24 +1,22 @@
 //
-//  SearchResultsTableViewController.m
-//  Study Manual For iOS
+//  iOSBlogSearchResultsTableViewController.m
+//  OC
 //
-//  Created by Apple on 9/15/15.
-//  Copyright (c) 2015 广东华讯网络投资有限公司. All rights reserved.
+//  Created by Apple on 9/28/15.
+//  Copyright © 2015 广东华讯网络投资有限公司. All rights reserved.
 //
 
-#import "SearchResultsTableViewController.h"
-#import "iOSOpenSourceWebKitViewController.h"
+#import "iOSBlogSearchResultsTableViewController.h"
 #import "iOSBlogWebViewViewController.h"
 
-@interface SearchResultsTableViewController ()
+@interface iOSBlogSearchResultsTableViewController ()
 
 @end
 
-@implementation SearchResultsTableViewController
+@implementation iOSBlogSearchResultsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,7 +31,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"SearchResultCell";
+    static NSString *CellIdentifier = @"iOSBlogSearchResultCell";
     
     NSUInteger row = [indexPath row];
     
@@ -49,14 +47,13 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-     [GlobalResource sharedInstance].iOSOpenSourceURLName = [self.searchResults[indexPath.row]objectForKey:@"name"];
+    [GlobalResource sharedInstance].iOSOpenSourceURLName = [self.searchResults[indexPath.row]objectForKey:@"name"];
     
-     [GlobalResource sharedInstance].iOSOpenSourceURL = [self.searchResults[indexPath.row]objectForKey:@"url"];
-
+    [GlobalResource sharedInstance].iOSOpenSourceURL = [self.searchResults[indexPath.row]objectForKey:@"url"];
     
     iOSBlogWebViewViewController *  iOSblogWebViewViewController =[[iOSBlogWebViewViewController alloc]init];
     [self presentViewController:[[UINavigationController alloc] initWithRootViewController:  iOSblogWebViewViewController] animated:YES completion:nil];
-
+    
 }
 
 @end
