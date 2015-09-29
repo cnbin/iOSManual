@@ -17,11 +17,13 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [[UINavigationBar appearance]setBarTintColor:SystemThemeColor];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];//系统返回键的颜色
-    //[NSThread sleepForTimeInterval:2.0];//设置启动页面时间
+    
+    
+    [NSThread sleepForTimeInterval:2.0];//设置启动页面时间
     return YES;
 }
 

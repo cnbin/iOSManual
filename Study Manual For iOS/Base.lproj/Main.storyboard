@@ -327,7 +327,7 @@
         <scene sceneID="aqF-Qs-eYt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XWh-M0-omQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="iOS 博客" id="EEa-M0-Upy"/>
+                    <tabBarItem key="tabBarItem" title="iOS 博客" image="tabbar_profile_selected" id="EEa-M0-Upy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="orw-lk-Wn4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -393,5 +393,6 @@
     <resources>
         <image name="tabbar_discover_selected" width="25" height="25"/>
         <image name="tabbar_home" width="34" height="26"/>
+        <image name="tabbar_profile_selected" width="32" height="27"/>
     </resources>
 </document>
