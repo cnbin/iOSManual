@@ -196,11 +196,11 @@
             </objects>
             <point key="canvasLocation" x="1763" y="860"/>
         </scene>
-        <!--快速查询-->
+        <!--查询-->
         <scene sceneID="QB5-sE-lm0">
             <objects>
                 <navigationController storyboardIdentifier="iOSOpenNavController" automaticallyAdjustsScrollViewInsets="NO" id="ydf-PW-EGq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="快速查询" image="tabbar_discover_selected" id="zUr-RK-iML"/>
+                    <tabBarItem key="tabBarItem" title="查询" image="tabbar_discover_selected" id="zUr-RK-iML"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K34-5U-zaR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -215,11 +215,11 @@
             </objects>
             <point key="canvasLocation" x="432" y="208"/>
         </scene>
-        <!--iOS 开源库-->
+        <!--开源库-->
         <scene sceneID="NBv-Cw-fYh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IIF-YV-Pj0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="iOS 开源库" image="tabbar_home" id="cTP-Be-wPY"/>
+                    <tabBarItem key="tabBarItem" title="开源库" image="tabbar_home" id="cTP-Be-wPY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zMW-T8-khk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -323,11 +323,11 @@
             </objects>
             <point key="canvasLocation" x="2394" y="860"/>
         </scene>
-        <!--iOS 博客-->
+        <!--博客-->
         <scene sceneID="aqF-Qs-eYt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XWh-M0-omQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="iOS 博客" image="tabbar_profile_selected" id="EEa-M0-Upy"/>
+                    <tabBarItem key="tabBarItem" title="博客" image="tabbar_profile_selected" id="EEa-M0-Upy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="orw-lk-Wn4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

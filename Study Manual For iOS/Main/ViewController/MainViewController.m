@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    self.title = @"iOS开源库";
+    self.title = @"开源库";
     
     _titleArray = [[NSMutableArray alloc]initWithObjects:
                    @"Xcode 插件",
